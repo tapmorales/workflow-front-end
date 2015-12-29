@@ -10,5 +10,5 @@
 * [Nodejs, NPM e terminal](nodejs-npm-terminal.md)
    * [O que é o nodeJS?](node-npm-terminal/o-que-e-nodejs.md)
    * [E o NPM?](node-npm-terminal/npm.md)
-   * Uma palavra sobre o terminal.
+   * [Uma palavra sobre o terminal.](node-npm-terminal/uma-palavra-sobre-o-terminal.md)
 
