@@ -7,4 +7,5 @@
    * [Antes do susto](introducao/antes-do-susto.md)
    * [Depois do susto](introducao/depois-do-susto.md)
    * [Para quem foi escrito](introducao/para-quem-foi-escrito.md)
+* Nodejs, NPM e terminal
 
