@@ -13,4 +13,5 @@
    * [Uma palavra sobre o terminal.](node-npm-terminal/uma-palavra-sobre-o-terminal.md)
    * [Versionamento e GIT](node-npm-terminal/versionamento-e-git.md)
    * [Comandos básicos Unix para manipulação de arquivos](node-npm-terminal/comandos-basicos-unix-para-manipulacao-de-arquivos.md)
+   * Configurando o Git
 
