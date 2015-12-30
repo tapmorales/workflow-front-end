@@ -14,5 +14,5 @@
    * [Versionamento e GIT](node-npm-terminal/versionamento-e-git.md)
    * [Comandos básicos Unix para manipulação de arquivos](node-npm-terminal/comandos-basicos-unix-para-manipulacao-de-arquivos.md)
    * [Configurando e iniciando o Git](node-npm-terminal/configurando-o-git.md)
-   * Versionando nosso primeiro arquivo
+   * [Versionando nosso primeiro arquivo](node-npm-terminal/versionando-nosso-primeiro-arquivo.md)
 
