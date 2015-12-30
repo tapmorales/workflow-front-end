@@ -11,5 +11,5 @@
    * [O que é o nodeJS?](node-npm-terminal/o-que-e-nodejs.md)
    * [E o NPM?](node-npm-terminal/npm.md)
    * [Uma palavra sobre o terminal.](node-npm-terminal/uma-palavra-sobre-o-terminal.md)
-   * Versionamento e GIT
+   * [Versionamento e GIT](node-npm-terminal/versionamento-e-git.md)
 
