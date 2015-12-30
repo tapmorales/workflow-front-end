@@ -17,4 +17,5 @@
    * [Versionando nosso primeiro arquivo](node-npm-terminal/versionando-nosso-primeiro-arquivo.md)
    * [Avaliando o histórico](node-npm-terminal/avaliando-o-historico.md)
 * [Fundamentos do Github](fundamentos-do-github.md)
+* Turminando o NodeJS
 
