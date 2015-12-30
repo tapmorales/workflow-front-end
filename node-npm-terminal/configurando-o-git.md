@@ -1,3 +1,3 @@
-# Configurando o Git
+# Configurando e Iniciando o Git
 
 Conteúdo em desenvolvimento
