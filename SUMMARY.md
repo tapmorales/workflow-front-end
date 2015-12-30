@@ -18,5 +18,5 @@
    * [Avaliando o histórico](node-npm-terminal/avaliando-o-historico.md)
 * [Fundamentos do Github](fundamentos-do-github.md)
 * [Turminando o NodeJS](turminando-o-nodejs.md)
-   * turbinando--o-nodejs
+   * [turbinando--o-nodejs](turbinando-o-nodejs.md)
 
