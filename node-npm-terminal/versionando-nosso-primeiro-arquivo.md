@@ -47,7 +47,8 @@ Na saída do terminal, a última linha é a que nos interessa. “nothing to com
 
 Vamos agora voltar ao Sublime, criar um paragrafo qualquer no nosso arquivo html e salvar. 
 
-```<!doctype html>
+```
+<!doctype html>
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
