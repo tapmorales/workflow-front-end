@@ -20,6 +20,14 @@ Para instalar o Git para windows, acesse [https://git-for-windows.github.io/](ht
 
 Siga as imagens abaixo para terminar sua instalação
 
+![](01.jpg)
+
+![](02.jpg)
+
+![](03.jpg)
+
+![](04.jpg)
+
 4-Nesta tela eu prefiro a primeira opção. Pois, a segunda diz que o Git usará o prompt padrão do Windows, mas não os comandos Unix. A terceira, diz que alguns comandos Windows serão substituidos por comandos Unix. E a primeira permite usar comandos Git e outros comandos Unix apenas no Git Bash.
 
 5- A próxima tela, é sobre quebra-linhas. Como sabemos os OS possuem formatos diferentes de quebra-linhas em aquivos de texto.O objetivo dessa opção é normalizar isso. A primeira opção converte para o padrão Windows quando os arquivos chega para você. E quando você comita ele converte para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos e a terceira, não faz nenhum tipo de conversão.Eu prefiro a segunda
