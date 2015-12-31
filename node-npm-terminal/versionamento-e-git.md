@@ -28,14 +28,17 @@ Siga as imagens abaixo para terminar sua instalação
 
 ![](04.jpg)
 
-4-Nesta tela eu prefiro a primeira opção. Pois, a segunda diz que o Git usará o prompt padrão do Windows, mas não os comandos Unix. A terceira, diz que alguns comandos Windows serão substituidos por comandos Unix. E a primeira permite usar comandos Git e outros comandos Unix apenas no Git Bash.
+Na tela acima deixe marcada somente a primeira opção. Isto é mais seguro, pois fará que o git seja usado somente a partir do Git Bash.
 
-5- A próxima tela, é sobre quebra-linhas. Como sabemos os OS possuem formatos diferentes de quebra-linhas em aquivos de texto.O objetivo dessa opção é normalizar isso. A primeira opção converte para o padrão Windows quando os arquivos chega para você. E quando você comita ele converte para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos e a terceira, não faz nenhum tipo de conversão.Eu prefiro a segunda
+![](05.jpg)
 
-E nesta última tela deixe marcada a primeira opção, indicando que queremos que as quebras de linha sejam consideradas da mesma maneira, independente do sistema operacional. - See more at: http://web-mister.blogspot.com.br/2012/04/instalando-e-configurando-o-git-no.html#sthash.aoKDwnps.dpuf
-E por último mais não menos importante, a configuração de quebra de linha. Como você deve saber, o ambiente windows utiliza CRLF como quebra de linha, e o ambiente unix utiliza apenas LF. Na opção default para windows, as quebras de linhas são convertidas automaticamente no checkout e commit, então, deixe marcada a opção "Checkout Windows-style, commit Unix-Style line endings".
+Já a tela acima é sobre quebra-linhas. Como os sistemas operacionais possuem formatos diferentes de quebra-linhas em aquivos de texto, deixar marcada a primeira opção normaliza isto. Explicando: a primeira opção converte para o padrão Windows quando os arquivos chegam até você. Quando você efetuar um commit será convertido para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos. Já a terceira opção não faz nenhum tipo de conversão. Deixe marcada a primeira opção.
 
+ ![](06.jpg)
 
+ ![](07.jpg)
+
+ ![](08.jpg)
 
 
 Agora que temos o git instalado e configurado, na próxima seção vamos dar uma olhada rapidamente em alguns comandos Unix para manipulação de arquivos.

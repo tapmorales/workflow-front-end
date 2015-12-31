@@ -6,11 +6,11 @@ Ainda hoje é possível digitar os mesmos comandos pelo prompt de comando do Win
 
 Agora que você já sabe como digitar comandos no prompt do Windows, devo alertá-lo: Não o faça mais. Nós não vamos nunca mais usar o prompt de comando do windows (cmd) para esta tarefa. 
 
-A princípio parece que usar o prompt de comandos do windows é uma boa alternativa, uma vez que já está instalado na máquina, prontinho para uso. Mas o fato é que o CMD é um tipo de terminal que aceita apenas os comandos usados no antigo sistema operacional MSDOS, e não aceita os comandos usados num sistema Linux.
+A princípio parece que usar o prompt de comandos do windows é uma boa alternativa, uma vez que já está instalado na máquina, prontinho para uso. Mas o fato é que o CMD é um tipo de terminal que aceita apenas os comandos usados no antigo sistema operacional MSDOS, e não aceita os comandos usados em sistemas Unix.
 
 Há muitos desenvolvedores que não utilizam o indows como sistema operacional. Portanto, uma boa prática é usar um terminal que converse a mesma língua de outros sistemas operacionais. Isso vai fazer você evitar problemas de compatibilidade e ser um profissional mais preparado para trabalhar com outros sistemas além do Windows. Convenci?
 
-Existem várias interfaces do tipo terminal, mas nós vamos usar uma que é instalado no momento que começarmos a versionar nossos arquivos usando o GIT. Nós usaremos um cara chamado Git Bash. O motivo é que com o Git Bash nós podemos simular comandos Linux no Windows. Acredite, você irá querer isso.
+Existem várias interfaces do tipo terminal, mas nós vamos usar uma que é instalado no momento que começarmos a versionar nossos arquivos usando o GIT. Nós usaremos um cara chamado Git Bash. O motivo é que com o Git Bash nós podemos simular comandos Unix no Windows. Acredite, você irá querer isso.
 
 
 No próximo capítulo, conheceremos o básico sobre versionamento, instalaremos o git para Windows, conheceremos alguns comandos básicos no git bash e criaremos nosso primeiro repositório no GIT.
