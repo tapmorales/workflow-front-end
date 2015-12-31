@@ -8,7 +8,8 @@ Para isso, vou abrir a minha pasta diretamente no Sublime para que eu consiga vi
 
 Vou criar um novo arquivo nesse diretório clicando com o botão direito do mouse e salvar como exemplo01.html. Segue o código:
 
-```<!doctype html>
+```
+<!doctype html>
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
@@ -47,7 +48,8 @@ Na saída do terminal, a última linha é a que nos interessa. “nothing to com
 
 Vamos agora voltar ao Sublime, criar um paragrafo qualquer no nosso arquivo html e salvar. 
 
-```<!doctype html>
+```
+<!doctype html>
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
@@ -83,15 +85,20 @@ Agora que nós temos o nosso primeiro html versionado, quero que você execute a
 
 Para referência, segue um exemplo bem bobinho que fiz apenas para mostrar:
 
-```estilo.css:
+
+estilo.css:
+```
 body{
 	background: #ccc;
-}```
+}
+```
 
 
-```app.js
+app.js
+```
 var body = document.body;
-body.style.color = 'red';```
+body.style.color = 'red';
+```
 
 Nesse ponto vale uma dica: com o comando ls é muito difícil identificar o que é arquivo e o que é diretório. Faça um experimento, digite no terminal $ls --color e veja o que acontece.
 
@@ -99,7 +106,7 @@ Nesse ponto vale uma dica: com o comando ls é muito difícil identificar o que 
 Depois de vinculá-los à sua página, digite ```$ git status``` e analise o output no terminal. Se tudo estiver bem, você deverá ver que um arquivo já comitado anteriormente foi modificado, porém, os dois arquivos criados não estão sendo rastreados pelo Git, ou seja, não estão sendo versionados. Como são apenas dois arquivos, você poderia incluí-los um a um com o comando ```$ git add```. Porém, pense no caso de termos muitos arquivos, como fontes, imagens, audios, vídeos etc. Nesse caso, incluí-los um a um faria você desistir do versionamento nos primeiros dez arquivos. 
 
 Para incluir todos os arquivos de uma vez, você poderia digitar o seguinte comando:
-```$ git add .```
+```$ git add ```.
 
 Observe o ponto no final. Esse sinal é o mesmo que dizer “todos os arquivos”.
 
