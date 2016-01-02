@@ -3,6 +3,7 @@
 Os passos a seguir precisam ser efetuados somente uma vez a cada instalação do Git.
 
 No terminal, digite:
+
 ```$ git config --global user.name "Seu nome" ```
 
 ```$ git config --global user.email “seu e-mail” ```

@@ -34,7 +34,7 @@ Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma
 * Não vou desenvolver nenhum sistema do zero, e você não será um ‘ninja’ em Node.js. Meu intuito é fazer com que você saiba o básico, que eu adoraria que alguém tivesse me contado quando comecei a desenvolver aplicativos para a web.
 * Não vou explorar nenhum framework em particular. Pelo menos não por enquanto. 
 * Mesmo sobre os assuntos que me proponho a explicar, por vezes não serei 100% fidedigno. Me proponho a explicar de um jeito fácil de entender. Provavelmente, se alguém tivesse feito isso comigo quando eu estava começando a entrar nesse terreno, algumas pedras sairiam do caminho antes de eu tropeçar. Pense assim: Se você tivesse que explicar javascript para alguém que está começando, provavelmente você não se preocuparia em explicar sobre escopo de variáveis.  Estou quase certo que as suas variáveis estariam todas no escopo global. E sabemos que isso não é uma boa prática. Contudo, se entrar muito nesse nível de detalhe talvez você assuste o iniciante e o faça desistir antes mesmo de tentar. Nesse caso, não importa que o seu código se pareça com: <br>
-``` var texto=”Olá mundo’; ```<br>
+``` var texto=”Olá mundo”; ```<br>
 ```alert(texto);```<br>
 Mesmo que isso não seja uma boa prática é fácil de entender. Lembre-se: os meus exemplos não têm a intensão de serem escritos como na vida real, contudo, espero te mostra a base para que, depois, você possa avançar com os seus estudos.
 
