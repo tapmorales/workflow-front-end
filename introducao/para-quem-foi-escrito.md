@@ -24,7 +24,7 @@ Se você se identificou com alguns pontos descritos acima, espero que este mater
 * Não se assustará se abrir um tutorial na net que começa pedindo para você digitar algo começando com npm install. Você saberá o que isso significa e onde deverá digitar esse código maluco.
 
 
-Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma base sólida para iniciar o desenvolvimento de aplicativos para a web. Hoje em dia, saber HTML, CSS e Javascript não é suficiente. Você precisa conhecer versionamento (Git e Github). Você precisa instalar uma ferramenta de build (Grunt ou Gulp). Você precisa saber manipular um gerenciador de dependencias (NPM ou NPM + Bower), e se souber também um pouco sobre pre-processadores CSS, terá uma maior produtividade e acrescentará no teu currículo.
+Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma base sólida para iniciar o desenvolvimento de aplicativos para a web. Hoje em dia, saber HTML, CSS e Javascript não é suficiente. Você precisa conhecer versionamento (Git e GitHub). Você precisa instalar uma ferramenta de build (Grunt ou Gulp). Você precisa saber manipular um gerenciador de dependencias (NPM ou NPM + Bower), e se souber também um pouco sobre pre-processadores CSS, terá uma maior produtividade e acrescentará no teu currículo.
 
 
 ## O que você não verá aqui

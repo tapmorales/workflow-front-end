@@ -5,7 +5,7 @@ Estando no diretório Projects, vamos criar mais um diretório chamado “Primei
 ```$ mkdir PrimeirosPassosWorflow ```
 ```$ cd primeirosP (TAB + ENTER)```
 
-Agora, precisamos informar ao Git que queremos versionar essa pasta. Nós pedimos ao Git para tomar conta dessa pasta pra gente, e ele gentilmente cuida para que nenhum arquivo ou versão se perca no decorrer do tempo. A não ser que a sua máquina pegue fogo ou o seu HD resolva fritar. Mas ainda assim há serviços que permitem você colocar suas versões na nuvem. Tem um serviço desses que um dia ficará famosinho. É um tal de github. conhece? :-P
+Agora, precisamos informar ao Git que queremos versionar essa pasta. Nós pedimos ao Git para tomar conta dessa pasta pra gente, e ele gentilmente cuida para que nenhum arquivo ou versão se perca no decorrer do tempo. A não ser que a sua máquina pegue fogo ou o seu HD resolva fritar. Mas ainda assim há serviços que permitem você colocar suas versões na nuvem. Tem um serviço desses que um dia ficará famosinho. É um tal de GitHub. conhece? :-P
 
 Voltando à nossa realidade, precisamos dizer ao Git que cuide no nosso diretório corrente (```$ pwd```, ok?). 
 

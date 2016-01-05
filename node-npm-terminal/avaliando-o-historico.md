@@ -24,4 +24,4 @@ Dica: Se você tiver vários comites, é provavel que veja um sinal de dois-pont
 
 Fácil, não? Vimos o básico sobre o Git. Daria pra falar muito mais sobre ele, como por exemplo criar branchs, criar releases, fazer merge entre branchs, resolver possíveis conflitos entre arquivos. Mas vamos ter que parar por aqui. Espero que com essa base você possa continuar seus estudos sem se assustar com o terminal e podendo dar os primeiros comandos do Git.
 
-No próximo capítulo vou falar um pouco sobre o github. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 
+No próximo capítulo vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 

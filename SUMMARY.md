@@ -19,5 +19,8 @@
    * [Avaliando o histórico](node-npm-terminal/avaliando-o-historico.md)
 * [Fundamentos do Github](fundamentos-do-github.md)
 * [Turbinando o NodeJS](turbinando-o-nodejs.md)
-   * [turbinando--o-nodejs](turbinando-o-nodejs.md)
+   * [Pensando fora do Browser](turbinando-o-node/pensando-fora-do-browser.md)
+   * [Instalando packages local ou globalmente](turbinando-o-node/instalando-packages-local-ou-globalmente.md)
+   * [Package.json](turbinando-o-node/package-json.md)
+   * [Dependências de produção vs. de desenvolvimento](turbinando-o-node/dependencias-de-producao-vs-de-desenvolvimento.md)
 
