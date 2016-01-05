@@ -3,9 +3,9 @@
 
 Com este material pretendo ajudar a galera que está começando agora e que já conhece e consegue se virar com Javascript, HTML e CSS. Se você se identificar com alguns dos aspectos abaixo, esse material é pra você:
 
-* Manjo de javascript mas gostaria de saber mais sobre o novo workflow front-end para desenvolvimento de sites ou sistemas.
+* Manjo de javascript mas gostaria de saber mais sobre o novo workflow front-end para desenvolvimento de sites ou aplicativos.
 * Quando abro um tutorial na internet que começa com uma frase parecida com “Para começar, digite sudo npm install …”, ou - pior ainda - “Basta você digitar npm install …”, fecho-o imediatamente antes que me contamine.
-* Sei da importância da performance de um site ou sistema, mas continuo entregando os mesmos javascripts de desenvolvimento em produção. 
+* Sei da importância da performance de um site ou aplicativo, mas continuo entregando os mesmos javascripts de desenvolvimento em produção. 
 * Versionamento? Claro! Sempre copio e colo a pasta de projetos colocando a data no nome da pasta. Além disso, nunca apago um trecho de código javascript. Sempre comento código velho que não está sendo mais necessário. Vai que eu precise dele no futuro. Nunca se sabe!
 * Eu ainda uso o bom e velho FTP para subir meus arquivos no servidor. Nunca falha.
 

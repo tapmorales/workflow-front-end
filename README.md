@@ -1,5 +1,5 @@
 # workflow front end
-Este guia tem como objetivo te apresentar uma nova maneira de trabalhar com o front-end de sites e/ou sistemas.
+Este guia tem como objetivo te apresentar uma nova maneira de trabalhar com o front-end de sites e/ou aplicativos.
 
 Há poucos anos atrás, bastava um programador front-end dominar o html, o css e javascript para ter uma boa colocação no mercado. Logicamente, outras disciplinas eram incluídas nesse pacote, como por exemplo: semântica do HTML, Javascript não bloqueantes, acessibilidade, performance entre outras. Mas tudo girava em torno das três tecnologias principais.
 

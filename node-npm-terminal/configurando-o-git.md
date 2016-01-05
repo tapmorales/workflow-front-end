@@ -8,6 +8,6 @@ No terminal, digite:
 
 ```$ git config --global user.email “seu e-mail” ```
 
-Como o Git é um programa de versionamento, normalmente usado para trabalhos em equipe, é necessário se identificar para que ele saiba quem é o dono de cada commit (lembre-se que um commit é um registro temporal - uma fotografia - do sistema/site).
+Como o Git é um programa de versionamento, normalmente usado para trabalhos em equipe, é necessário se identificar para que ele saiba quem é o dono de cada commit (lembre-se que um commit é um registro temporal - uma fotografia - do site/aplicativo).
 
 Pronto, isso basta para começarmos a versionar nossos arquivos.
