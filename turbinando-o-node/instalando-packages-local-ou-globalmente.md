@@ -17,8 +17,17 @@ Se você instalar um módulo localmente na sua pasta do projeto os arquivos e to
 
 Dito isto, você deve estar se perguntando por qual motivo alguém deveria instalar um módulo localmente no diretório do projeto. Eu creio que este não seja o momento de explicar isso, mas eu quero que você tome nota do paragráfo abaixo e leia-o no futuro (eu anotaria no evernote):
 
+
+
 ---
-Se você quiser usar o módulo no seu projeto, através do terminal (linha de comando, ou CLI, como preferir), você poderá instalar um módulo globalmente. Entretanto, se você estiver desenvolvendo um módulo para servir de dependência de outro módulo - usando require("seu_modulo") -, você terá que instalá-lo localmente, na raiz do seu projeto.
+
+
+ Se você quiser usar o módulo no seu projeto, através do terminal (linha de comando, ou CLI, como preferir), você poderá instalar um módulo globalmente. Entretanto, se você estiver desenvolvendo um módulo para servir de dependência de outro módulo - usando require("seu_modulo") -, você terá que instalá-lo localmente, na raiz do seu projeto.
+
+
+
 ---
+
+
 
 Na prática, eu instalo os módulos que utilizo com mais frequência globalmente. Contudo, instalo os módulos usados em projetos específicos apenas localmente. Estes pacotes serão descartados da minha máquina quando o projeto estiver entregue em produção, liberando espaço físico da minha HD. Não há problema algum em apagar um módulo, desde que você consiga nova instalação rapidamente, sem esforço algum, caso necessário na manutenção do projeto. E isso é tema do próximo tópico.
