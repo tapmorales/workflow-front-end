@@ -32,7 +32,7 @@ Na tela acima deixe marcada somente a primeira opção. Isto é mais seguro, poi
 
 ![](05.jpg)
 
-Já a tela acima é sobre quebra-linhas. Como os sistemas operacionais possuem formatos diferentes de quebra-linhas em aquivos de texto, deixar marcada a primeira opção normaliza isto. Explicando: a primeira opção converte para o padrão Windows quando os arquivos chegam até você. Quando você efetuar um commit será convertido para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos. Já a terceira opção não faz nenhum tipo de conversão. Deixe marcada a primeira opção.
+Já a tela acima é sobre quebra de linhas. Como os sistemas operacionais possuem formatos diferentes de quebra de linhas em aquivos de texto, deixar marcada a primeira opção normaliza isto. Explicando: a primeira opção converte para o padrão Windows quando os arquivos chegam até você. Quando você efetuar um commit será convertido para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos. Já a terceira opção não faz nenhum tipo de conversão. Deixe marcada a primeira opção.
 
  ![](06.jpg)
 

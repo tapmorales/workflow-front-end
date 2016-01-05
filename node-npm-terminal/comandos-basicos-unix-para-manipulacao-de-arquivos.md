@@ -6,9 +6,9 @@ Uma vez que você instalou o Git for Windows na sua máquina da maneira como eu 
 
 Abra o Git Bash de maneira trivial, procurando-o no menu iniciar ou em algum atalho criado na instalação.
 
-A primeira observação importante é que, para cada usuario presente na máquina há uma pasta chamada “pasta pessoais” (também conhecida como pasta "Home"). No Windows, essa pasta fica em c:/Users/Seu_usuario. Ao abrir o Git Bash pela primeira vez você estará "visualizando" essa pasta, muito provavelmente. 
+A primeira observação importante é que, para cada usuario presente na máquina há uma pasta chamada “pasta pessoal” (também conhecida como pasta "Home"). No Windows, essa pasta fica em c:/Users/Seu_usuario. Ao abrir o Git Bash pela primeira vez você estará "visualizando" essa pasta, muito provavelmente. 
 
-Uma outra maneira de abrir o Git Bash a partir no Windows é clicar com o botão direito do mouse dentro de um diretório qualquer e selecionar a opção "Git Bash Here". Nesse caso você não estará visualizando a sua pasta pessoal, mas sim a pasta a partir da qual você abriu o Git Bash.
+Uma outra maneira de abrir o Git Bash a partir do Windows é clicar com o botão direito do mouse dentro de um diretório qualquer e selecionar a opção "Git Bash Here". Nesse caso você não estará visualizando a sua pasta pessoal, mas sim a pasta a partir da qual você abriu o Git Bash.
 
 A segunda observação importante é que você provavelmente está vendo algo parecido com:
 
@@ -36,7 +36,7 @@ Se você quiser visualizar os arquivos e pastas não ocultas no diretório corre
 
 Esse comando é parecido com o comando ‘dir’ do MSDOS, porém, estamos simulando um ambiente Unix e o comando dir não existe nesse ambiente.
 
-Se você quiser entrar em alguma pasta, basta digitar o comando cd (change directory). Por exemplo:
+Se você quiser entrar em alguma pasta, basta digitar o comando ```cd``` (change directory). Por exemplo:
 
 ```$ cd Desktop```
 
@@ -54,7 +54,7 @@ Agora estamos visualizando o C:. Para voltar para a sua pasta pessoal, você pod
 
 ```$ cd ~ ```
 
-o sinal "til" é um atalho que aponta para o seu diretório Home.
+o sinal "til" é um atalho que aponta para o seu diretório Home, lembra?
 
 Se você quiser descobrir a pasta pessoal de qualquer diretório ou partição no seu computador, basta digitar :
 

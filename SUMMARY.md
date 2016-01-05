@@ -23,4 +23,5 @@
    * [Instalando packages local ou globalmente](turbinando-o-node/instalando-packages-local-ou-globalmente.md)
    * [Package.json](turbinando-o-node/package-json.md)
    * [Dependências de produção vs. de desenvolvimento](turbinando-o-node/dependencias-de-producao-vs-de-desenvolvimento.md)
+* [Automatização de tarefas](automatizacao-de-tarefas.md)
 

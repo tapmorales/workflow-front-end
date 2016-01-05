@@ -24,4 +24,9 @@ Dica: Se você tiver vários comites, é provavel que veja um sinal de dois-pont
 
 Fácil, não? Vimos o básico sobre o Git. Daria pra falar muito mais sobre ele, como por exemplo criar branchs, criar releases, fazer merge entre branchs, resolver possíveis conflitos entre arquivos. Mas vamos ter que parar por aqui. Espero que com essa base você possa continuar seus estudos sem se assustar com o terminal e podendo dar os primeiros comandos do Git.
 
-No próximo capítulo vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 
+---
+Há várias maneiras de comparar as modificações de um arquivo usando o Git. A que mais me agrada é utilizar uma interface gráfica para isso. Para abrir esse programa, digite no terminal ```$ gitk ```. O Gitk é um programa a parte específico para visualizar as alterações nos arquivos. Dê uma fuçada nele. É bem tranquilo.
+---
+
+
+No próximo tópico vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 

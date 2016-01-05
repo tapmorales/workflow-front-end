@@ -33,7 +33,7 @@ Eu confesso que a ajuda do uglify é um pouco extensa, mas não se preocupe, por
 
 A ideia é minificarmos o nosso arquivo app.js. Mas para isso, vamos editá-lo um pouco, como a seguir:
 
-```
+```javascript
 	var body = document.body;
 	var cor = 'red';
 

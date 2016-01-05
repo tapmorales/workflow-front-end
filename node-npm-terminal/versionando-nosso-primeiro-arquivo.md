@@ -48,7 +48,7 @@ Na saída do terminal, a última linha é a que nos interessa. “nothing to com
 
 Vamos agora voltar ao Sublime, criar um paragrafo qualquer no nosso arquivo html e salvar. 
 
-```
+```html
 <!doctype html>
 <html lang="pt-br">
 	<head>
@@ -68,26 +68,27 @@ Vamos investigar como está o nosso repositório git nesse momento (depois de al
 
 ```$ git status```
 
-O git nos dá duas informações muito importantes. A primeira é que há mudanças que não estão na área de stage, portanto, ainda não estão prontas para o commit. A segunda é uma consequência da primeira, ou seja, não há mudanças para ser comitadas.
+O git nos dá duas informações muito importantes. A primeira é que há mudanças que não estão na área de stage, portanto, ainda não estão prontas para o próximo commit. A segunda é uma consequência da primeira, ou seja, não há mudanças para ser comitadas.
 
-Essa é a segunda pegadinha do Git. Ao alterarmos um arquivo que foi comitado previamente, precisamos incluí-lo novamente na área de stage e só depois podemos comitá-lo novamente. Então vamos lá:
+Essa é a segunda pegadinha do Git. Ao alterarmos um arquivo que foi comitado previamente, precisamos incluí-lo novamente na área de stage e só depois podemos comitá-lo. Então vamos lá:
 
 ```$ git add exemplo01.html```
+
 ```$ git commit -m “inclusao de paragrafo”.```
 
 
 Agora que nós temos o nosso primeiro html versionado, quero que você execute algumas tarefas:
 
-1 - criar um arquivo de estilo css/estilo.css
-2 - criar uma arquivo de javascript: js/app.js
-3 - criar um conteúdo qualquer dentro desses arquivos
-4 - vincular os dois arquivos à sua página html.
+1. criar um arquivo de estilo css/estilo.css
+2. criar uma arquivo de javascript: js/app.js
+3. criar um conteúdo qualquer dentro desses arquivos
+4. vincular os dois arquivos à sua página html.
 
 Para referência, segue um exemplo bem bobinho que fiz apenas para mostrar:
 
 
 estilo.css:
-```
+```css
 body{
 	background: #ccc;
 }
@@ -95,12 +96,12 @@ body{
 
 
 app.js
-```
+```javascript
 var body = document.body;
 body.style.color = 'red';
 ```
 
-Nesse ponto vale uma dica: com o comando ls é muito difícil identificar o que é arquivo e o que é diretório. Faça um experimento, digite no terminal $ls --color e veja o que acontece.
+Nesse ponto vale uma dica: com o comando ```ls``` é muito difícil identificar o que é arquivo e o que é diretório. Faça um experimento, digite no terminal ```$ls --color``` e veja o que acontece.
 
 
 Depois de vinculá-los à sua página, digite ```$ git status``` e analise o output no terminal. Se tudo estiver bem, você deverá ver que um arquivo já comitado anteriormente foi modificado, porém, os dois arquivos criados não estão sendo rastreados pelo Git, ou seja, não estão sendo versionados. Como são apenas dois arquivos, você poderia incluí-los um a um com o comando ```$ git add```. Porém, pense no caso de termos muitos arquivos, como fontes, imagens, audios, vídeos etc. Nesse caso, incluí-los um a um faria você desistir do versionamento nos primeiros dez arquivos. 
@@ -122,11 +123,19 @@ Pronto? agora digite ```$ git status``` novamente. Repare que Git nos mostra no 
 
 O comando ```git commit -a``` mata dois coelhos com uma cajadada: acrescenta as modificações à área de stage e comita de uma só vez, porém, o jeito certo de usar esse comando é um pouco diferente. As três linhas de comando abaixo são equivalentes. Fica a seu gosto
 
-```$ git commit -a -m “mensagem do comite”.```
+```
+$ git commit -a -m “mensagem do comite”.
+```
 (a flag -a siginica “todos os arquivos” e -m significa que você quer digitar uma mensagem no comite).
-```$ git commit -am “mensagem do comite”.``` 
+
+```
+$ git commit -am “mensagem do comite”.
+``` 
 (é uma abreviação da linha acima, juntando as duas flags)
-```$ git commit -all -m “mensagem do comite”.``` 
+
+```
+$ git commit -all -m “mensagem do comite”.
+``` 
 (um pouco mais verboso, mas é exatamente a mesma coisa que as duas linhas acima).
 
 Mas atenção: a flag -a, ou uma das variações, só funciona se os arquivos alterados foram versionados previamente (com o ```$ git add``` ou ```$ git add .```). Se você nunca adicionou os arquivos à área de stage, a flag -a não produzirá resultado algum.
