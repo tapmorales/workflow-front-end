@@ -8,7 +8,7 @@ Para isso, vou abrir a minha pasta diretamente no Sublime para que eu consiga vi
 
 Vou criar um novo arquivo nesse diretório clicando com o botão direito do mouse e salvar como exemplo01.html. Segue o código:
 
-```
+```html
 <!doctype html>
 <html lang="pt-br">
 	<head>
