@@ -8,8 +8,8 @@ Então fui procurar material na internet. Procurei sobre automatização de tare
 
 Mas whata? npm? node.js? Ok. Tinha que correr atras do prejuízo. Achei que seria mais fácil ver como o GruntJs funciona na prática. Googlei novamente e abri um site famoso em português que dizia: 
 
-...para instalar, digite:
-sudo npm install -g grunt-cli
+...para instalar, digite:  
+`sudo npm install -g grunt-cli`
 
 
 **Digitar? Onde? Como assim? **
