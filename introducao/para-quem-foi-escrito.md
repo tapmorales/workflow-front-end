@@ -4,7 +4,7 @@
 Com este material pretendo ajudar a galera que está começando agora e que já conhece e consegue se virar com Javascript, HTML e CSS. Se você se identificar com alguns dos aspectos abaixo, esse material é pra você:
 
 * Manjo de javascript mas gostaria de melhorar meu workflow front-end para desenvolvimento de sites ou aplicativos.
-* Quando abro um tutorial na internet que começa com uma frase parecida com “Para começar, digite sudo npm install …”, ou - pior ainda - “Basta você digitar npm install …”, fecho-o imediatamente antes que me contamine.
+* Quando abro um tutorial na internet que começa com uma frase parecida com “Para começar, digite sudo *npm install …*”, ou - pior ainda - “Basta você digitar *npm install …*”, fecho-o imediatamente antes que me contamine.
 * Sei da importância da performance de um site ou aplicativo, mas continuo entregando os mesmos javascripts de desenvolvimento em produção. 
 * Versionamento? Claro! Sempre copio e colo a pasta de projetos colocando a data no nome da pasta. Além disso, nunca apago um trecho de código javascript. Sempre comento código velho que não está sendo mais necessário. Vai que eu precise dele no futuro. Nunca se sabe!
 * Eu ainda uso o bom e velho FTP para subir meus arquivos no servidor. Nunca falha.
@@ -21,7 +21,7 @@ Se você se identificou com alguns pontos descritos acima, espero que este mater
 * Concatenará e minificará seus javascripts e css. Acredite: é moleza e vale a pena.
 * Nunca mais irá comentar códigos velhos com medo de precisar deles no futuro.
 * Nunca mais irá colocar seus arquivos de desenvolvimento em produção.
-* Não se assustará se abrir um tutorial na net que começa pedindo para você digitar algo começando com npm install. Você saberá o que isso significa e onde deverá digitar esse código maluco.
+* Não se assustará se abrir um tutorial na net que começa pedindo para você digitar algo começando com *npm install*. Você saberá o que isso significa e onde deverá digitar esse código maluco.
 
 
 Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma base sólida para iniciar o desenvolvimento de aplicativos para a web. Hoje em dia, saber HTML, CSS e Javascript não é suficiente. Você precisa conhecer versionamento (Git e GitHub). Você precisa instalar uma ferramenta de build (Grunt ou Gulp). Você precisa saber manipular um gerenciador de dependencias (NPM ou NPM + Bower), e se souber também um pouco sobre pre-processadores CSS, terá uma maior produtividade e acrescentará no teu currículo.
@@ -33,19 +33,15 @@ Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma
 * Detalhes sobre javascript, jquery, css e html. Espero que você já possua esses pré-requisitos.
 * Não vou desenvolver nenhum sistema do zero, e você não será um ‘ninja’ em Node.js. Meu intuito é fazer com que você saiba o básico, que eu adoraria que alguém tivesse me contado quando comecei a desenvolver aplicativos para a web.
 * Não vou explorar nenhum framework em particular. Pelo menos não por enquanto. 
-* Mesmo sobre os assuntos que me proponho a explicar, por vezes não serei 100% fidedigno. Me proponho a explicar de um jeito fácil de entender. Provavelmente, se alguém tivesse feito isso comigo quando eu estava começando a entrar nesse terreno, algumas pedras sairiam do caminho antes de eu tropeçar. Pense assim: Se você tivesse que explicar javascript para alguém que está começando, provavelmente você não se preocuparia em explicar sobre escopo de variáveis.  Estou quase certo que as suas variáveis estariam todas no escopo global. E sabemos que isso não é uma boa prática. Contudo, se entrar muito nesse nível de detalhe talvez você assuste o iniciante e o faça desistir antes mesmo de tentar. Nesse caso, não importa que o seu código se pareça com: <br>
-``` var texto=”Olá mundo”; ```<br>
-```alert(texto);```<br>
+* Mesmo sobre os assuntos que me proponho a explicar, por vezes não serei 100% fidedigno. Me proponho a explicar de um jeito fácil de entender. Provavelmente, se alguém tivesse feito isso comigo quando eu estava começando a entrar nesse terreno, algumas pedras sairiam do caminho antes de eu tropeçar. Pense assim: Se você tivesse que explicar javascript para alguém que está começando, provavelmente você não se preocuparia em explicar sobre escopo de variáveis.  Estou quase certo que as suas variáveis estariam todas no escopo global. E sabemos que isso não é uma boa prática. Contudo, se entrar muito nesse nível de detalhe talvez você assuste o iniciante e o faça desistir antes mesmo de tentar. Nesse caso, não importa que o seu código se pareça com:  
+``` javascript 
+var texto = ”Olá mundo”;
+alert(texto);
+```
 Mesmo que isso não seja uma boa prática é fácil de entender. Lembre-se: os meus exemplos não têm a intensão de serem escritos como na vida real, contudo, espero te mostra a base para que, depois, você possa avançar com os seus estudos.
 
 
-
-
-
-
 ## Softwares utilizados:
-
-
 
 
 ### Sistema Operacional:
