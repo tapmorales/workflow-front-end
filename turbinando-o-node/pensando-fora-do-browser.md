@@ -1,13 +1,15 @@
 #Pensando fora do Browser
 
+O NodeJS é um programa escrito em C++ e baseado na engine V8 cuja principal função é poder ler e interpretar códigos javascripts fora do browser. 
+
 A princípio, o NodeJS foi pensado para poder criar servidores web baseados em eventos javascripts. E isso ainda é perfeitamente possível.
-Mas o fato é que você pode instalar e utilizar o node sem nunca necessariamente criar ou rodar um servidor baseado nele. Um exemplo: há um módulo do nodejs chamado uglify. (Um módulo é um arquivo javascript que você instala através do npm. Veremos isso em detalhes em instantes). Uma vez instalado o uglify, você ganha de presente um novo comando no seu terminal. Esse comando faz com que o NodeJS seja capaz de ler um arquivo js e minificá-lo, automaticamente. Lindo né?
+Mas o fato é que você pode instalar e utilizar o node sem nunca necessariamente criar ou rodar um servidor baseado nele. Um exemplo: há um módulo do nodejs chamado uglify. (Um módulo é um arquivo javascript que você instala através do npm. Veremos isso detalhadamente em instantes). Uma vez instalado o uglify, você ganha de presente um novo comando no seu terminal. Esse comando faz com que o NodeJS seja capaz de ler um arquivo js e minificá-lo, automaticamente. Lindo né?
 
 Uma coisa que devemos ter em mente é que um módulo do node pode ser instalado globalmente (no sistema, podendo ser usado em qualquer projeto) ou localmente (apenas no projeto atual).
 
 ## Instalando módulos no NodeJS
 
-Assim que instalamos o node já temos o nosso primeiro módulo instalado, que é o próprio npm, ou seja, ganhamos um comando novo no terminal: ```npm```. Há uma flag que mostra um texto de ajuda sobre determinado comando: ```-h```. Então, digite no seu terminal:
+Assim que instalamos o node já temos o nosso primeiro módulo disponível para uso, que é o próprio node package management, ou seja, ganhamos um comando novo no terminal: ```npm```. Há uma flag que mostra um texto de ajuda sobre determinado comando: ```-h```. Então, digite no seu terminal:
 ```$ npm install -h```
 
 
@@ -49,11 +51,13 @@ Tudo deve continuar funcionando, entretanto, vamos minificar esse arquivo. Para 
 $ uglifyjs js/app.js --output js/app.min.js
 ```
 
-Se tudo correu bem, um novo arquivo foi criado. Abra-o no seu editor e veja o que aconteceu. Podemos ver que a minificação não foi lá essas coisas. Vamos corrigir isso. Digite no seu terminal: 
+Se tudo correu bem, um novo arquivo foi criado. O NodeJS leu o se arquivo app.js e deu saída (```--output```) em outro arquivo, mas desta vez minificado. Abra-o no seu editor e veja o que aconteceu. Podemos ver que a minificação não foi lá essas coisas. Vamos corrigir isso. Digite no seu terminal: 
 
 ```
 $ uglifyjs js/app.js --output js/app.min.js --mangle
 ```
+
+A flag ```--mangle``` irá analizar o seu arquivo e irá substituir, onde possível, alguns nomes de variáveis para deixar o arquivo mais enxuto, reduzindo assim alguns kbytes de transferência de dados.
 
 Se você olhar o arquivo minificado, verá que os nomes dos parâmetros da função ```mudaCor``` foram alterados para um caracter apenas. Bem melhor, não?
 Há outras opções disponíveis no uglify. E há também uma infinidade de outros pacotes disponíveis no [npmjs.org](https://www.npmjs.com/). Mas o mais importante aqui é perceber que usamos o NodeJS e o npm para instalar um pacote globalmente e utilizamos esse pacote sem necessariamente termos configurado um servidor.

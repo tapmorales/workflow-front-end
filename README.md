@@ -1,6 +1,6 @@
 # workflow front end
 
-Há poucos anos atrás, bastava um programador front-end dominar o html, o css e javascript para ter uma boa colocação no mercado. Logicamente, outras disciplinas eram incluídas nesse pacote, como por exemplo: semântica do HTML, Javascript não bloqueantes, acessibilidade, performance entre outras. Mas tudo girava em torno das três tecnologias principais.
+Há poucos anos, bastava um programador front-end dominar o html, o css e javascript para ter uma boa colocação no mercado. Logicamente, outras disciplinas eram incluídas nesse pacote, como por exemplo: semântica do HTML, Javascript não bloqueantes, acessibilidade, performance entre outras. Mas tudo girava em torno das três tecnologias principais.
 
 Mas esse cenário mudou. Somou-se às competências acima outras habilidades técnicas como versionamente de arquivos, automatização de tarefas, pré-processadores css, NodeJS e NPM, para citar alguns. Estes são conhecimentos obrigatórios se você quiser entrar/se manter no mercado.
 
