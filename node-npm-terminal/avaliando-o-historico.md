@@ -31,4 +31,4 @@ Há várias maneiras de comparar as modificações de um arquivo usando o Git. A
 ---
 
 
-No próximo tópico vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 
+No próximo tópico vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O cloud é o limite. 
