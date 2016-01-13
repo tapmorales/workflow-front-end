@@ -8,7 +8,7 @@ Com esse comando, podemos ver o histório de commits já efetuados. Poderíamos 
 
 ```$ git log --oneline```
 
-Também poderíamos ver somente os últimos comites. Se nosso projeto já existisse há bastante tempo, contendo vários comites, o comando acima nos traria uma lista enorme. Podemos passar mais uma flag, informando quando comites queremos ver. Até o momento só temos dois comites em nosso repositório, portanto, para ver isso funcionando, digite em seu terminal:
+Também poderíamos ver somente os últimos comites. Se nosso projeto já existisse há bastante tempo, contendo vários comites, o comando acima nos traria uma lista enorme. Podemos passar mais uma flag, informando quantos comites queremos ver. Até o momento só temos dois comites em nosso repositório, portanto, para ver isso funcionando, digite em seu terminal:
 
 ```$ git log -n 1```
  
