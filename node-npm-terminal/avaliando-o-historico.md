@@ -8,7 +8,7 @@ Com esse comando, podemos ver o histório de commits já efetuados. Poderíamos 
 
 ```$ git log --oneline```
 
-Também poderíamos ver somente os últimos comites. Se nosso projeto já existisse há bastante tempo, contendo vários comites, o comando acima nos traria uma lista enorme. Podemos passar mais uma flag, informando quando comites queremos ver. Até o momento só temos dois comites em nosso repositório, portanto, para ver isso funcionando, digite em seu terminal:
+Também poderíamos ver somente os últimos comites. Se nosso projeto já existisse há bastante tempo, contendo vários comites, o comando acima nos traria uma lista enorme. Podemos passar mais uma flag, informando quantos comites queremos ver. Até o momento só temos dois comites em nosso repositório, portanto, para ver isso funcionando, digite em seu terminal:
 
 ```$ git log -n 1```
  
@@ -31,4 +31,4 @@ Há várias maneiras de comparar as modificações de um arquivo usando o Git. A
 ---
 
 
-No próximo tópico vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O clound é o limite. 
+No próximo tópico vou falar um pouco sobre o GitHub. Vamos criar um repositório na nuvem e mandar nossos arquivos pra lá, deixando nossos arquivos visíveis para o mundo inteiro. O cloud é o limite. 
