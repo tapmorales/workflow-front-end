@@ -16,7 +16,7 @@ Dessa forma, se você digitar no terminal
 ```javascript
 $ grunt minhaTerefa
 
-```javascript
+```
 
 As tarefas tarefa1, tarefa2 e tarefa3 serão executadas nessa mesma ordem.
 

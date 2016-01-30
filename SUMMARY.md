@@ -30,5 +30,5 @@
    * [Criando os arquivos estáticos](automatizacao-de-tarefas/criando-os-arquivos-estaticos.md)
    * [Executando Tarefas](automatizacao-de-tarefas/executando-tarefas.md)
    * [Tarefas em lote](automatizacao-de-tarefas/tarefas-em-lote.md)
-   * [Considerações finais](automatizacao-de-tarefas/tconsideracoes-finais.md)
+   * [Considerações finais](automatizacao-de-tarefas/consideracoes-finais.md)
 
