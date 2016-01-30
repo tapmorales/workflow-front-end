@@ -245,8 +245,8 @@ Precisamos atualizar a inclusão do javascript apontando para o arquivo concaten
 
 Eu já trabalhei com dois plugins do GruntJS para resolver esse tipo de problema:
 
-*[grunt-useref](https://www.npmjs.com/package/grunt-useref). 
-*[grunt-usemin](https://github.com/yeoman/grunt-usemin).
+* [grunt-useref](https://www.npmjs.com/package/grunt-useref). 
+* [grunt-usemin](https://github.com/yeoman/grunt-usemin).
 
 
 Para o nosso guia, eu vou simplesmente pedir que você altere a chamada do main.css e app.min.js em "souce" e execute o copy novamente.

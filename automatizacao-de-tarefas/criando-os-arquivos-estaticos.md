@@ -6,7 +6,7 @@ Eu quis criar dois arquivos javascripts pra vermos como a concatenação deles f
 
 Os arquivos javascripts estão divididos em módulos. Um mostra a data de hoje na tela (UAU!) e o outro mostra na tela quantas vezes o usuário clicou num botão (WOOWW).
 
-O CSS foi criado com algumas frescuras de gradiente e text-shadow para vermos o autoprefixer em ação.
+O CSS foi criado com alguns detalhes de gradiente para vermos o autoprefixer em ação.
 
 O meu HTML e CSS segue a metodologia BEM (Block, element, modifier) para estruturar minhas classes. Existem várias outras metodologias já criadas e discutidas. E você pode usar alguma delas, alterá-la ao seu modo ou simplesmente criar a sua própria metodologia. A ideia é criar um padrão, uma maneira de escrever códigos CSS que sejam reutilizáveis, escaláveis e elegantes. Não entrarei em detalhes sobre o BEM, mas garanto que é bem simples e que há vários materiais na internet para você consultar.
 
