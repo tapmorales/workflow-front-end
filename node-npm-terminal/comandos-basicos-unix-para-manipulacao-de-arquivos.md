@@ -88,13 +88,3 @@ Será que está tudo certo? Se estiver no diretório Projects, digite ```$ pwd``
 
 Já temos o básico necessário para começarmos a versionar nossos arquivos com o Git. Mas é claro que há muito mais comandos Unix para aprender. Se você quiser estudar por conta própria, sugiro alguns comandos iniciais: cp, mv, rm e rmdir. Com esses comandos você consegue fazer tudo o que fazia com o mouse e o Windows, só que agora via terminal. Não é só uma questão de se sentir cool. Mais cedo ou mais tarde você precisará editar um arquivo diretamente no servidor, e para fazer isso, você precisará de um editor de código do tipo terminal, como o VIM ou o Emacs (dê tchauzinho ao seu Sublime Text nessas situações).  
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73075491-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
