@@ -72,7 +72,7 @@ Prontinho, não só os arquivos na sua máquina estão todos atualizados como vo
 
 Por hora é isso. Ainda há muito o que aprender sobre o Git mas o que eu apresentei aqui é o básico necessário para você continuar seus estudos.
 
-Atualmente, saber manusear bem os comando do Git (ou outro sistema de controle de versão) é requisito obrigatório em qualquer área de desenvolvimento (web, app, mobile, front-end, back-end etc). 
+Atualmente, saber manusear bem os comandos do Git (ou outro sistema de controle de versão) é requisito obrigatório em qualquer área de desenvolvimento (web, app, mobile, front-end, back-end etc). 
 
 Se você não conhecia nada sobre o assunto, eu espero que tenha conseguido te dar uma luz. Se já conhecia, espero que tenha acrescentado algo novo.
 
