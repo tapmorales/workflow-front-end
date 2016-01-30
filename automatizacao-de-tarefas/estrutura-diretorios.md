@@ -41,20 +41,23 @@ Faça uma pequena edição no seu arquivo package.json para ficar semelhante à:
 ##Explicação sobre o processo de build
 
 O build, ou deploy, nada mais é do que preparar os arquivos para serem enviados para produção (subir no servidor e torná-lo disponível na internet). Esse processo pode envolver uma série de tarefas, e pode variar de projeto para projeto. Os exemplos mais comuns e simples de entender são:
-*autoprefixer arquivos css, ou seja, incluir os prefixos dos browsers, quando necessário.
+
+*autoprefixer nos arquivos css, ou seja, incluir os prefixos dos browsers, quando necessário.
 *concatenar arquivos javascript.
 *minificar arquivos, aumentando a performance do site/aplicação.
 *Copiar arquivos estáticos (como midias ou fontes) no diretório de deploy.
+
 Há muitos outros processos legais que poderíamos ver nesse guia, mas focarei no mais fundamental para seu entendimento.
 
 Dito isto, quero detalhar alguns pontos sobre a estrutura de diretórios criada acima:
 
-*O arquivo package.json, como sabemos, é onde listamos as nossas dependências do projeto
+*O arquivo package.json, como sabemos, é onde listamos as nossas dependências do projeto.
 *O arquivo .gitignore é usado para dizer ao Git quais arquivos não devem ser versionados.
 *Não deveremos mexer dentro da pasta "deploy". Os arquivos desta pasta serão criados pelo nosso *builder*, no nosso caso, será o GruntJS.
 *A pasta source/javascript terá mais de um arquivo .js. Porém, esses arquivos serão concatenados num único arquivo e minificados no momento do build.
 *Por enquanto, a pasta source/sass conterá um arquivo css simples. Este arquivo será autoprefixado apenas. Nos próximos tópicos faremos as alterações necessárias para podermos trabalhar com o pre-processador SASS.
-*A pasta source/vendor conterá, para exemplificar, um arquivo de terceiro, o modernizr. Se este arquivo estiver minificado (normalmente está) ele simplesmente será copiado para o devido lugar dentro de "deploy". Esse mesmo processo poderia ser criado para uma pasta "images", por exemplo. Não criarei imagens em nosso projeto para manter as coisas simples.
+*A pasta source/vendor conterá, para exemplificar, um arquivo de terceiro, o modernizr. Se este arquivo estiver minificado (normalmente está) ele simplesmente será copiado para o devido lugar dentro de "deploy". Esse mesmo processo poderia ser criado para uma pasta "images", por exemplo. Não criarei imagens em nosso projeto para manter as coisas simples. 
 *Antes de cada build, iremos apagar (automaticamente, claro) todos os arquivos que estiverem dentro de "deploy". Esse processo é importante para evitarmos "sujeiras" de builds anteriores.
+
 
 Já temos o entendimento necessário para instalarmos o GruntJS, mas isso é assunto para o próximo tópico.

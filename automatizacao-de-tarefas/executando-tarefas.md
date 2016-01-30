@@ -6,7 +6,8 @@ A nossa primeira tarefa será incluir, automaticamente, os vendors prefixers no 
 
 Abra o seu Gruntfile no editor de código e substitua:
 
-```
+```javascript
+
 autoprefixer: {
 
 },
@@ -15,8 +16,7 @@ autoprefixer: {
 
 por:
 
-```
-
+```javascript
 
 autoprefixer: {         
     dist: {
@@ -36,7 +36,7 @@ Você pode verificar outras opções de configurações na própria página do p
 
 Você pode testar se o autoprefixer está funcionando digitando no terminal:
 
-```
+```javascript
 
  $ grunt autoprefixer 
 
@@ -57,7 +57,7 @@ Para esta tarefa, usaremos o plugin [cssmin](https://www.npmjs.com/package/grunt
 
 Substitua no lugar adequado no seu Gruntfile
 
-```
+```javascript
 
 cssmin: {
     dist: {
@@ -82,7 +82,7 @@ A nossa próxima tarefa é minificarmos e concatenarmos nossos arquivos javascri
 
 Da mesma forma que fizemos anteriormente, altere o seu Gruntfile, incluindo no lugar adequado o seguinte código:
 
-```
+```javascript
 
 uglify: {
     options: {
@@ -122,7 +122,7 @@ Uma tarefa bastante trivial é ter que copiar alguns arquivos estáticos para a 
 
 Da mesma forma que os plugins anteriores, substitua no lugar apropriado de seu Gruntfile.js
 
-```
+```javascript
 
 copy: {
     dist: {
@@ -139,9 +139,7 @@ A diferença é que agora a propriedade files não é mais uma string, mas sim u
 
 Na verdade, o exemplo anterior funcionaria sem precisarmos de um array, ou seja, se fizéssemos dessa forma:
 
-```
-
-
+```javascript
 
 copy: {
   dist: {
@@ -160,7 +158,7 @@ Por exemplo:
 
 
 
-```
+```javascript
 
 copy: {
   dist: {
@@ -181,42 +179,52 @@ A questão é que o Grunt copiou os arquivos, mas não da maneira como estávamo
 
 Para resolver, precisamos dizer ao Grunt para para, no momento da cópia, se basear relativamente ao diretório source, mas não incluí-lo na cópia. Para isso:
 
+```javascript
+
 expand: true, //habilita o cwd
 cwd: 'source/', //relativo ao diretório source, mas não o inclui na cópia   
 
+
+```
+
+
 A configuração final de nosso copy ficou assim:
 
+```javascript
+
 copy: {
-          dist: {
-            expand: true, //habilita o cwd
-            cwd: 'source/', //relativo ao source, mas não o inclui na cópia      
-            src: 'vendor/*', 
-            dest: 'deploy/',                
-          }
-        },
+  dist: {
+    expand: true, //habilita o cwd
+    cwd: 'source/', //relativo ao source, mas não o inclui na cópia      
+    src: 'vendor/*', 
+    dest: 'deploy/',                
+  }
+},
+
+```
 
 
 Para finalizar, falta configurarmos a cópia da nossa index.html. Veja como deve ficar. 
 
-```
+```javascript
 
 copy: {
-          dist: {
-            files: [
-                {
-                    expand: true, //habilita o cwd
-                    cwd: 'source/', //relativo à source, mas não a inclui na cópia      
-                    src: 'vendor/*', 
-                    dest: 'deploy/'
-                },
-                {
-                    expand: true, //habilita o cwd
-                    cwd: 'source/',
-                    src: 'index.html', 
-                    dest: 'deploy/'}
-            ]        
-          }
+  dist: {
+    files: [
+        {
+            expand: true, //habilita o cwd
+            cwd: 'source/', //relativo à source, mas não a inclui na cópia      
+            src: 'vendor/*', 
+            dest: 'deploy/'
         },
+        {
+            expand: true, //habilita o cwd
+            cwd: 'source/',
+            src: 'index.html', 
+            dest: 'deploy/'}
+    ]        
+  }
+},
 
 
 ```
@@ -224,7 +232,7 @@ copy: {
 
 Tudo copiado conforme esperávamos, mas ainda resta alguns problemas: O arquivo index.html faz as chamadas às folhas de estilo e ao javascript da seguinte forma:
 
-```
+```html
 
 <link rel="stylesheet" href="sass/main.css">
 
@@ -253,8 +261,7 @@ A cereja do bolo é fazer com que, antes de cada deploy, o grunt apague todos os
 Para isso, vamos usar o [grunt-contrib-clean](https://www.npmjs.com/package/grunt-contrib-clean).
 
 
-```
-
+```javascript
 
 clean: {
   dist: {
@@ -270,7 +277,8 @@ Esse comando irá limpar deletar o nosso diretório deploy. Não é difícil per
 
 Ou seja, no nosso terminal, devemos executar os seguintes comandos, nessa ordem:
 
-```
+```javascript
+
 $ grunt clean
 $ grunt autoprefixer
 $ grunt cssmin

@@ -10,9 +10,15 @@ O CSS foi criado com algumas frescuras de gradiente e text-shadow para vermos o 
 
 O meu HTML e CSS segue a metodologia BEM (Block, element, modifier) para estruturar minhas classes. Existem várias outras metodologias já criadas e discutidas. E você pode usar alguma delas, alterá-la ao seu modo ou simplesmente criar a sua própria metodologia. A ideia é criar um padrão, uma maneira de escrever códigos CSS que sejam reutilizáveis, escaláveis e elegantes. Não entrarei em detalhes sobre o BEM, mas garanto que é bem simples e que há vários materiais na internet para você consultar.
 
+
 ---
+
+
 Se você é um profundo conhecedor de BEM, você perceberá uma pequena falha nos meus CSS’s. Não se preocupe com isso pois no momento oportuno eu retomarei esse assunto para corrigirmos isso. Saiba que esse “erro” é proposital e tem finalidades didáticas
+
+
 ---
+
 
 Além disso, há mais uma coisa que preciso dizer: se você fizer o seu CSS exatamente igual ao meu, você verá que eu não me preocupei com o design da página. (Mentira. A verdade é que não sou um bom designer, e por isso sempre escolho tons de cinza. É mais difícil de errar).
 

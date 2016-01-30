@@ -6,19 +6,17 @@ O que nos resta agora é fazer com que apenas com um comando no nosso terminal s
 
 Veja um exemplo abaixo:
 
-```
-
+```javascript
 grunt.registerTask(minhaTarefa, [tarefa1, tarefa2, tarefa3])
 
 ```
 
 Dessa forma, se você digitar no terminal
 
-```
-
+```javascript
 $ grunt minhaTerefa
 
-```
+```javascript
 
 As tarefas tarefa1, tarefa2 e tarefa3 serão executadas nessa mesma ordem.
 
@@ -27,8 +25,7 @@ Um detalhe importante é que você pode registrar uma tarefa chamada ‘default�
 
 Para esse exercício, vamos criar uma tarefa chamada "deploy", que conterá todas as tarefas criadas até o momento:
 
-```
-
+```javascript
 grunt.registerTask("deploy", ["clean", "autoprefixer", "cssmin", "uglify", "copy"])
 
 ```
@@ -40,7 +37,6 @@ Isso não é demais!?
 Para referência, segue meu Gruntfile.js final:
 
 ```javascript
-
 module.exports = function(grunt) {
 	'use strict';
 
