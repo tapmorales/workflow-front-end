@@ -1,0 +1,11 @@
+{
+	"title": "workflow front end",
+	"description": "Os fundamentos para o moderno workflow front-end para quem já manja de HTML, CSS e Javascript",
+	"language": "pt-br",
+    "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-73075491-1"
+        }
+    }
+}
