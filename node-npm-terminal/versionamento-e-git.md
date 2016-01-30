@@ -20,25 +20,25 @@ Para instalar o Git para windows, acesse [https://git-for-windows.github.io/](ht
 
 Siga as imagens abaixo para terminar sua instalação
 
-![](01.jpg)
+![iniciando a instalação do GIT](01.jpg "iniciando a instalação do GIT")
 
-![](02.jpg)
+![Configurando o GIT](02.jpg "Configurando o GIT")
 
-![](03.jpg)
+![Configurando o GIT](03.jpg "Configurando o GIT")
 
-![](04.jpg)
+![Configurando o GIT](04.jpg "Configurando o GIT")
 
 Na tela acima deixe marcada somente a primeira opção. Isto é mais seguro, pois fará que o git seja usado somente a partir do Git Bash.
 
-![](05.jpg)
+![Configurando o GIT](05.jpg "Configurando o GIT")
 
 Já a tela acima é sobre quebra de linhas. Como os sistemas operacionais possuem formatos diferentes de quebra de linhas em aquivos de texto, deixar marcada a primeira opção normaliza isto. Explicando: a primeira opção converte para o padrão Windows quando os arquivos chegam até você. Quando você efetuar um commit será convertido para o formato Unix.  A segunda não faz nenhuma conversão quando o arquivo chega, apenas converte para Unix quando comitamos. Já a terceira opção não faz nenhum tipo de conversão. Deixe marcada a primeira opção.
 
- ![](06.jpg)
+ ![Configurando o GIT](06.jpg "Configurando o GIT")
 
- ![](07.jpg)
+ ![Configurando o GIT](07.jpg "Configurando o GIT")
 
- ![](08.jpg)
+ ![iniciando a instalação do GIT](08.jpg "iniciando a instalação do GIT")
 
 
 Agora que temos o git instalado e configurado, na próxima seção vamos dar uma olhada rapidamente em alguns comandos Unix para manipulação de arquivos.

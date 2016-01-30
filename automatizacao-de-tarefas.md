@@ -30,11 +30,7 @@ O Grunt funciona da seguinte forma: você escreve uma lista de tarefas e atribui
 
 Existem outras possibilidades ao trabalharmos com o Grunt, mas por hora, vamos focar no workflow descrito acima.
 
-Te vejo no próximo tópico (guenta aí que ainda está em desenvolvimento).
+Te vejo no próximo tópico 
 
 
-
-Esse guia ainda está em desenvolvimento. E ainda há muito o que eu falar.
-
-Se quiser saber quando um novo tópico estiver disponível, [siga-me](http://twitter.com/tapmorales). Eu te aviso por lá.
 

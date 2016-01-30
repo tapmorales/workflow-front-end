@@ -2,11 +2,11 @@
 
 Você já efetuou várias tarefas de manipulação de arquivos usando um interface gráfica. Já criou, deletou, renomeou arquivos e pastas e já moveu arquivos dentro do seu HD. Você está tão acostumado a fazer isso com o mouse que parece uma idiotice ter que aprender a fazer isso via linha de comando. A primeira impressão é que você perderá muito mais tempo digitando comandos extensos do que simplesmente dando alguns cliques no mouse e/ou alguns atalhos do teclado. Talvez você esteja certo. Mas talvez não. Mesmo que se no final deste capítulo você continuar usando a interface gráfica para efetuar estas tarefas, é bom conhecer outras possibilidades. O fato é que saber operar o terminal é primordial se você quiser evoluir na área de desenvolvimento front-end, e conhecer o mínimo de manipulação de arquivos é um excelente ponto de partida.
 
-Uma vez que você instalou o Git for Windows na sua máquina da maneira como eu descrevi na seção anterior, você ganhou de presente o “Git Bash”, que é um programa do tipo CLI (command line interface) que simula um terminal do Unix no Windows, além de permitir que você digite os comandos do Git. 
+Uma vez que você instalou o Git for Windows na sua máquina da maneira como eu descrevi na seção anterior, você ganhou de presente o "Git Bash", que é um programa do tipo CLI (command line interface) que simula um terminal do Unix no Windows, além de permitir que você digite os comandos do Git. 
 
 Abra o Git Bash de maneira trivial, procurando-o no menu iniciar ou em algum atalho criado na instalação.
 
-A primeira observação importante é que, para cada usuario presente na máquina há uma pasta chamada “pasta pessoal” (também conhecida como pasta "Home"). No Windows, essa pasta fica em c:/Users/Seu_usuario. Ao abrir o Git Bash pela primeira vez você estará "visualizando" essa pasta, muito provavelmente. 
+A primeira observação importante é que, para cada usuario presente na máquina há uma pasta chamada "pasta pessoal" (também conhecida como pasta "Home"). No Windows, essa pasta fica em c:/Users/Seu_usuario. Ao abrir o Git Bash pela primeira vez você estará "visualizando" essa pasta, muito provavelmente. 
 
 Uma outra maneira de abrir o Git Bash a partir do Windows é clicar com o botão direito do mouse dentro de um diretório qualquer e selecionar a opção "Git Bash Here". Nesse caso você não estará visualizando a sua pasta pessoal, mas sim a pasta a partir da qual você abriu o Git Bash.
 
@@ -28,7 +28,7 @@ Para ter certeza de qual diretório está sendo visualizado, digite no terminal 
 
 ```$ pwd```
 
-Esse comando significa “print working directory” e serve para visualizar a pasta corrente
+Esse comando significa "print working directory" e serve para visualizar a pasta corrente
 
 Se você quiser visualizar os arquivos e pastas não ocultas no diretório corrente, basta digitar:
 
@@ -81,7 +81,7 @@ Nesse ponto, vamos criar um diretório que conterá todos os exemplos deste livr
 Esse comando criará um diretório chamado Projects. Para ter certeza que foi criado corretamente.
 ```$ ls```
 
-Você deverá visualizar a pasta “Projects” na lista que aparecer no terminal. Criamos o diretório, mas ainda não estamos “dentro” dele. Como fazemos mesmo para trocar o diretório corrente? ```$ cd Projects```. Isso mesmo. Mas nesse ponto eu quero te dar uma dica. O Git bash possui um autocomplete que facilita muito a nossa vida. Para vê-lo em ação, tente digitar:
+Você deverá visualizar a pasta "Projects" na lista que aparecer no terminal. Criamos o diretório, mas ainda não estamos "dentro" dele. Como fazemos mesmo para trocar o diretório corrente? ```$ cd Projects```. Isso mesmo. Mas nesse ponto eu quero te dar uma dica. O Git bash possui um autocomplete que facilita muito a nossa vida. Para vê-lo em ação, tente digitar:
 ```$ cd Pro``` (se sem continuar a palavra, aperte TAB do teclado. Faça uns testes com ```$ cd P``` (TAB), ```$ cd Pr``` (TAB). Veja o que acontece. Muito útil.
 
 Será que está tudo certo? Se estiver no diretório Projects, digite ```$ pwd``` para vermos o diretório corrente. Observe que, como este diretório está vazio, digitar ```$ ls``` não produzirá nenhum resultado.

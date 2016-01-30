@@ -35,16 +35,16 @@ Agora podemos ver que esse arquivo está pronto para ser fotografado, isto é, c
 
 Legal! Temos uma pasta que transformamos num repositório git (```git init```), informamos que queremos rastrear as mudanças feitas no nosso primeiro arquivo, colocando-o na área de stage (```git add```), mas até agora este arquivo não foi comitado de fato. Para resolver isso, digite no seu terminal:
 
-```$ git commit -m “primeiro comite lindo”```
+```$ git commit -m "primeiro comite lindo"```
 
-a flag -m é usada para informar uma mensagem de commit. É muito importante que as mensagens de seus commits sejam descritivas e específicas das tarefas executadas naquele momento. Por exemplo, “alteração de endereço na página de contato”, “inclusão da funcionalidade buscar cep” ou “alterar banner da home - campanha natal 2016” são bons nomes de commits pois permitem facilmente identificar o momento em que as alterações foram efetuadas. Ao passo que: “correção de bugs diversos”, “nova funcionalidade na página de compras” ou “incluir banner” são poucos específicos e de pouco valor. Fique atento às suas mensagens de commits. 
+a flag -m é usada para informar uma mensagem de commit. É muito importante que as mensagens de seus commits sejam descritivas e específicas das tarefas executadas naquele momento. Por exemplo, "alteração de endereço na página de contato", "inclusão da funcionalidade buscar cep" ou "alterar banner da home - campanha natal 2016" são bons nomes de commits pois permitem facilmente identificar o momento em que as alterações foram efetuadas. Ao passo que: "correção de bugs diversos", "nova funcionalidade na página de compras" ou "incluir banner" são poucos específicos e de pouco valor. Fique atento às suas mensagens de commits. 
  
 Prontinho. Nosso primeiro commit foi feito. Vamos verificar: 
 
 ```$ git status``` 
 (dica: você pode executar comandos escritos recentemente no terminal apertando as teclas para cima e para baixo do teclado).
 
-Na saída do terminal, a última linha é a que nos interessa. “nothing to commit, working directory clean”. Ou seja, tudo está atualizado.
+Na saída do terminal, a última linha é a que nos interessa. "nothing to commit, working directory clean". Ou seja, tudo está atualizado.
 
 Vamos agora voltar ao Sublime, criar um paragrafo qualquer no nosso arquivo html e salvar. 
 
@@ -74,7 +74,7 @@ Essa é a segunda pegadinha do Git. Ao alterarmos um arquivo que foi comitado pr
 
 ```$ git add exemplo01.html```
 
-```$ git commit -m “inclusao de paragrafo”.```
+```$ git commit -m "inclusao de paragrafo".```
 
 
 Agora que nós temos o nosso primeiro html versionado, quero que você execute algumas tarefas:
@@ -109,13 +109,13 @@ Depois de vinculá-los à sua página, digite ```$ git status``` e analise o out
 Para incluir todos os arquivos de uma vez, você poderia digitar o seguinte comando:
 ```$ git add ```.
 
-Observe o ponto no final. Esse sinal é o mesmo que dizer “todos os arquivos”.
+Observe o ponto no final. Esse sinal é o mesmo que dizer "todos os arquivos".
 
 Faça o teste: digite o comando acima e em seguida veja o que acontece quando você verifica o status novamente.
 
 Com tudo adicionado à área do stage, que informa que os arquivos estão preparados para serem comitados, basta você efetuar o comite normalmente
 
-```$ git commit -m “Inclusão de javascript e css”```
+```$ git commit -m "Inclusão de javascript e css"```
 
 Fácil, né? Incluímos todos os arquivos que não estavam na área de stage de uma única vez e depois comitamos normalmente. Contudo, digamos que depois do comite efetuado, o cliente pediu algumas alterações que precisam ser efetuadas tanto no arquivo de estilo quanto no arquivo de javascript. Como queremos manter o histórico, vamos alterar esses arquivos e efetuar um novo comite. Então vai lá. Altere os seus arquivos (pode ser qualquer alteração mesmo, ok).
 
@@ -124,17 +124,17 @@ Pronto? agora digite ```$ git status``` novamente. Repare que Git nos mostra no 
 O comando ```git commit -a``` mata dois coelhos com uma cajadada: acrescenta as modificações à área de stage e comita de uma só vez, porém, o jeito certo de usar esse comando é um pouco diferente. As três linhas de comando abaixo são equivalentes. Fica a seu gosto
 
 ```
-$ git commit -a -m “mensagem do comite”.
+$ git commit -a -m "mensagem do comite".
 ```
-(a flag -a siginica “todos os arquivos” e -m significa que você quer digitar uma mensagem no comite).
+(a flag -a siginica "todos os arquivos" e -m significa que você quer digitar uma mensagem no comite).
 
 ```
-$ git commit -am “mensagem do comite”.
+$ git commit -am "mensagem do comite".
 ``` 
 (é uma abreviação da linha acima, juntando as duas flags)
 
 ```
-$ git commit -all -m “mensagem do comite”.
+$ git commit -all -m "mensagem do comite".
 ``` 
 (um pouco mais verboso, mas é exatamente a mesma coisa que as duas linhas acima).
 

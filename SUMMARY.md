@@ -24,4 +24,11 @@
    * [Package.json](turbinando-o-node/package-json.md)
    * [Dependências de produção vs. de desenvolvimento](turbinando-o-node/dependencias-de-producao-vs-de-desenvolvimento.md)
 * [Automatização de tarefas](automatizacao-de-tarefas.md)
+   * [Criando a estrutura de diretórios](automatizacao-de-tarefas/estrutura-diretorios.md)
+   * [Instalando o GruntJS](automatizacao-de-tarefas/Instalando-o-Grunt JS.md)
+   * [Registrando tarefas](automatizacao-de-tarefas/registrando-tarefas-no-Gruntfile.md)
+   * [Criando os arquivos estáticos](automatizacao-de-tarefas/criando-os-arquivos-estaticos.md)
+   * [Executando Tarefas](automatizacao-de-tarefas/executando-tarefas.md)
+   * [Tarefas em lote](automatizacao-de-tarefas/tarefas-em-lote.md)
+   * [Considerações finais](automatizacao-de-tarefas/tconsideracoes-finais.md)
 

@@ -25,5 +25,5 @@ Mas como isso foi possível? Simples, desenvolveram o NodeJS usando como base a 
 
 Mas e aquela definição do NodeJS retirada do site nodejs.org. Não se preocupe por enquanto. Lembre-se que não é necessário entender o escopo de variáveis quando estamos começando aprender javascript.
 
-Sabendo disso, é hora de instalar o NodeJS. Não vou detalhar esse processo por ser bem simples. Basta fazer o download e dar um duplo clique no executável. Depois de alguns “Next” clique em “Finish”. Depois de instalado, seu sistema poderá rodar arquivos javascripts fora do browser. Vai lá em https://nodejs.org. Eu te espero.
+Sabendo disso, é hora de instalar o NodeJS. Não vou detalhar esse processo por ser bem simples. Basta fazer o download e dar um duplo clique no executável. Depois de alguns "Next" clique em "Finish". Depois de instalado, seu sistema poderá rodar arquivos javascripts fora do browser. Vai lá em https://nodejs.org. Eu te espero.
 

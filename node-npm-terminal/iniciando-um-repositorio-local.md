@@ -1,6 +1,6 @@
 # Iniciand um repositório local
 
-Estando no diretório Projects, vamos criar mais um diretório chamado “PrimeirosPassosWorflow” e acessá-lo em seguida. (importante: nunca coloque espaços ou caracteres especiais, como acentos ou cedilhas em nomes de arquivos ou pastas)
+Estando no diretório Projects, vamos criar mais um diretório chamado "PrimeirosPassosWorflow" e acessá-lo em seguida. (importante: nunca coloque espaços ou caracteres especiais, como acentos ou cedilhas em nomes de arquivos ou pastas)
 
 ```$ mkdir PrimeirosPassosWorflow ```
 
