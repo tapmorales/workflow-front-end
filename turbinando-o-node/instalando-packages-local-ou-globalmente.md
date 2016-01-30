@@ -31,3 +31,15 @@ Dito isto, você deve estar se perguntando por qual motivo alguém deveria insta
 
 
 Na prática, eu instalo os módulos que utilizo com mais frequência globalmente. Contudo, instalo os módulos usados em projetos específicos apenas localmente. Estes pacotes serão descartados da minha máquina quando o projeto estiver entregue em produção, liberando espaço físico da minha HD. Não há problema algum em apagar um módulo, desde que você consiga nova instalação rapidamente, sem esforço algum, caso necessário na manutenção do projeto. E isso é tema do próximo tópico.
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73075491-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

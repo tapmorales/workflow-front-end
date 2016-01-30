@@ -63,3 +63,15 @@ Se você olhar o arquivo minificado, verá que os nomes dos parâmetros da funç
 Há outras opções disponíveis no uglify. E há também uma infinidade de outros pacotes disponíveis no [npmjs.org](https://www.npmjs.com/). Mas o mais importante aqui é perceber que usamos o NodeJS e o npm para instalar um pacote globalmente e utilizamos esse pacote sem necessariamente termos configurado um servidor.
 
 Precisamos entender agora a diferença entre instalar um pacote global (com a flag ```-g```) e um pacote local em nosso projeto. 
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73075491-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
