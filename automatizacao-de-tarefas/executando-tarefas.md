@@ -1,6 +1,6 @@
 #Executando Tarefas
 
-## Autoprefixer.
+## Autoprefixer
 
 A nossa primeira tarefa será incluir, automaticamente, os vendors prefixers no nosso arquivo css. Vale saber que este plugin utiliza as informações disponíveis no [caniuse](http://caniuse.com/) para decidir qual vendor incluir no arquivo css. Para isso, o autoprefixer se baseia sempre nas duas últimas versões de cada browser (mas isso é configurável).
 
@@ -180,7 +180,6 @@ A questão é que o Grunt copiou os arquivos, mas não da maneira como estávamo
 Para resolver, precisamos dizer ao Grunt para para, no momento da cópia, se basear relativamente ao diretório source, mas não incluí-lo na cópia. Para isso:
 
 ```javascript
-
 expand: true, //habilita o cwd
 cwd: 'source/', //relativo ao diretório source, mas não o inclui na cópia   
 
@@ -191,7 +190,6 @@ cwd: 'source/', //relativo ao diretório source, mas não o inclui na cópia
 A configuração final de nosso copy ficou assim:
 
 ```javascript
-
 copy: {
   dist: {
     expand: true, //habilita o cwd
@@ -246,10 +244,12 @@ Precisamos atualizar a inclusão do javascript apontando para o arquivo concaten
 
 
 Eu já trabalhei com dois plugins do GruntJS para resolver esse tipo de problema:
-*[https://www.npmjs.com/package/grunt-useref](https://www.npmjs.com/package/grunt-useref)
-*[https://github.com/yeoman/grunt-usemin](https://github.com/yeoman/grunt-usemin)
 
-Para o nosso guia, eu simplesmente vou pedir que você altere a chamada do main.css e app.min.js em "souce" e execute o copy novamente.
+*[grunt-useref](https://www.npmjs.com/package/grunt-useref). 
+*[grunt-usemin](https://github.com/yeoman/grunt-usemin).
+
+
+Para o nosso guia, eu vou simplesmente pedir que você altere a chamada do main.css e app.min.js em "souce" e execute o copy novamente.
 
 Se você quiser deixar mais profissional, tente por conta própria usar um dos plugins descritos acima. Senão, basta alterar o caminho do css e do javascript.
 

@@ -2,16 +2,17 @@
 
 A partir desse momento vamos trabalhar com uma estrutura de diretórios um pouco diferente de como estávamos trabalhando até o tópico anterior. A ideia é termos uma estrutura que lembre um pouco um projeto real. Para isso, vou pedir que você execute algumas tarefas:
 
-Crie um novo diretório chamado "projetoWorkflow" no seu diretório home. (fora da pasta que estávamos trabalhando, a "PrimeirosPassosWorkflow".
-Nesse diretório recém-criado, acrescente mais dois diretórios: "source" e "deploy". Os arquivos de "source" serão os arquivos fontes (arquivos de edição). Os arquivos que estivem em "deploy" serão os arquivos que irão para produção. Estes arquivos serão gerados pelo nosso GruntJS.
-Dentro da pasta "source" crie mais três diretórios, a saber: "javascript", "sass" e "vendor". Crie também um index.html com a estrutura inicial de qualquer arquivo html.
-Na raiz do projeto, crie um arquivo chamado .gitignore (mantenha o ‘ponto’ inicial no nome do arquivo). 
-Crie um aquivo package.json através de um comando no npm. Lembra qual é o comando? ``` $ npm init ```. Responda as perguntas feitas pelo assistente e vá dando ENTER.
-Transforme o diretório raiz (PrimeirosPassosWorkflow) num repositório Git. Lembra-se do comando que faz isso? Não poderei contar que é o ``` $ git init ``` ;)
-Crie um novo repositório na sua conta do GitHub e mande tudo para lá. Se você não se lembra como faz isso, é uma boa hora para revisar [Fundamentos do GitHub](https://tapmorales.gitbooks.io/workflow-front-end/content/fundamentos-do-github.html). Essa etapa não é obrigatória, mas é um bom momento para revisarmos.
+*Crie um novo diretório chamado "projetoWorkflow" no seu diretório home. (fora da pasta que estávamos trabalhando, a "PrimeirosPassosWorkflow".
+*Nesse diretório recém-criado, acrescente mais dois diretórios: "source" e "deploy". Os arquivos de "source" serão os arquivos fontes (arquivos de edição). Os arquivos que estivem em "deploy" serão os arquivos que irão para produção. Estes arquivos serão gerados pelo nosso GruntJS.
+*Dentro da pasta "source" crie mais três diretórios, a saber: "javascript", "sass" e "vendor". Crie também um index.html com a estrutura inicial de qualquer arquivo html.
+*Na raiz do projeto, crie um arquivo chamado .gitignore (mantenha o ‘ponto’ inicial no nome do arquivo).
+*Crie um aquivo package.json através de um comando no npm. Lembra qual é o comando? ``` $ npm init ```. Responda as perguntas feitas pelo assistente e vá dando ENTER.
+*Transforme o diretório raiz (PrimeirosPassosWorkflow) num repositório Git. Lembra-se do comando que faz isso? Não poderei contar que é o ``` $ git init ``` ;)
+*Crie um novo repositório na sua conta do GitHub e mande tudo para lá. Se você não se lembra como faz isso, é uma boa hora para revisar [Fundamentos do GitHub](https://tapmorales.gitbooks.io/workflow-front-end/content/fundamentos-do-github.html). Essa etapa não é obrigatória, mas é um bom momento para revisarmos.
 
 No final das etapas descritas acima, você terá a seguinte estrutura:
 
+<pre>
 projetoWorkflow
     |-> .git
     |-> deploy
@@ -22,11 +23,12 @@ projetoWorkflow
         |- index.html
     |- .gitignore
     |- package.json
+</pre>
 
 
 Faça uma pequena edição no seu arquivo package.json para ficar semelhante à:
 
-```
+```javascript
 
 {
   "name": "projetoWorkflow",
