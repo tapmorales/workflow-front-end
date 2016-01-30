@@ -44,10 +44,10 @@ Faça uma pequena edição no seu arquivo package.json para ficar semelhante à:
 
 O build, ou deploy, nada mais é do que preparar os arquivos para serem enviados para produção (subir no servidor e torná-lo disponível na internet). Esse processo pode envolver uma série de tarefas, e pode variar de projeto para projeto. Os exemplos mais comuns e simples de entender são:
 
-*autoprefixer nos arquivos css, ou seja, incluir os prefixos dos browsers, quando necessário.
-*concatenar arquivos javascript.
-*minificar arquivos, aumentando a performance do site/aplicação.
-*Copiar arquivos estáticos (como midias ou fontes) no diretório de deploy.
+* autoprefixer nos arquivos css, ou seja, incluir os prefixos dos browsers, quando necessário.
+* concatenar arquivos javascript.
+* minificar arquivos, aumentando a performance do site/aplicação.
+* Copiar arquivos estáticos (como midias ou fontes) no diretório de deploy.
 
 Há muitos outros processos legais que poderíamos ver nesse guia, mas focarei no mais fundamental para seu entendimento.
 
