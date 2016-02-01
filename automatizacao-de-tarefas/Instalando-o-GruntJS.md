@@ -30,7 +30,7 @@ $ npm install uglify-js
 
 ```
 
-Contudo, ao trabalharmos com Grunt, não precisamos instalar o pacote acima para minificar nossos arquivos. Em contrapartida, precisamos instalar um ‘wrapper’ do próprio Grunt que envolve o pacote uglify e assim possibilita que executemos o comando uglify não mais pela linha de comando, mas sim programaticamente. É isso mesmo. Nós iremos escrever códigos javascript que rode comandos que antes só rodavam no terminal. Ou seja, vamos criar um arquivo javascript que contenh, por exemplo, uma chamada para “uglify”. Mas eu não estou falando de qualquer arquivo. Eu estou falando do Gruntfile.js.
+Contudo, ao trabalharmos com Grunt, não precisamos instalar o pacote acima para minificar nossos arquivos. Em contrapartida, precisamos instalar um ‘wrapper’ do próprio Grunt que envolve o pacote uglify e assim possibilita que executemos o comando uglify não mais pela linha de comando, mas sim programaticamente. É isso mesmo. Nós iremos escrever códigos javascript que rode comandos que antes só rodavam no terminal. Ou seja, vamos criar um arquivo javascript que contenha, por exemplo, uma chamada para “uglify”. Mas eu não estou falando de qualquer arquivo. Eu estou falando do Gruntfile.js.
 
 ## arquivo Gruntfile.js
 
