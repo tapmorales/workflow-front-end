@@ -173,7 +173,7 @@ copy: {
 ```
 
 
-É hora de verificarmos se o que fizemos deu certo. Abra o seu diretório deploy e veja como ficou. Os arquivos foram copiados? A estrutura de pasta está certa? Ficou como esperávamos? Eu acho que não.
+É hora de verificarmos se o que fizemos deu certo. No terminal, digite ``` $ grunt copy ``` e em seguida abra o seu diretório deploy e veja como ficou. Os arquivos foram copiados? A estrutura de pasta está certa? Ficou como esperávamos? Eu acho que não.
 
 A questão é que o Grunt copiou os arquivos, mas não da maneira como estávamos imaginando. Quando configuramos o Grunt dessa forma: ``` {src: 'source/vendor/*', dest: 'deploy/'} ``` o que esperávamos era que todos os arquivos inseridos na pasta vendor fossem copiados para deploy/vendor. Mas na prática, o que o Grunt fez foi copiar o caminho completo, desde source, para dentro de deploy. O resultado foi o seguinte caminho: deploy\vendor\source\vendor. Bem estranho, não é mesmo?
 
