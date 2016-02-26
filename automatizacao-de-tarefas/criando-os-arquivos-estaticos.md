@@ -2,7 +2,7 @@
 
 Esse tópico não apresentará nada de novo. Vamos criar os arquivo necessários para rodar as tarefas do Grunt. Então, simplesmente crie os seus arquivos no diretório ‘source’. Não se esqueça que precisaremos de um arquivo modernizr. 
 
-Eu quis criar dois arquivos javascripts pra vermos como a concatenação deles funciona. Eu até que me esforcei para pensar em alguma funcionalidade que fosse simples, mas que não fosse idiota. Depois de alguns minutos, desisti. Resolvi criar duas funcionalidades idiotas banais mesmo. Para os propósitos deste guia, satisfaz. 
+Eu quis criar dois arquivos javascripts pra vermos como a concatenação deles funciona. Eu até que me esforcei para pensar em alguma funcionalidade que fosse simples, mas que não fosse banal. Depois de alguns minutos, desisti. Resolvi criar duas funcionalidades ~~idiotas~~ banais mesmo. Para os propósitos deste guia, satisfaz. 
 
 Os arquivos javascripts estão divididos em módulos. Um mostra a data de hoje na tela (UAU!) e o outro mostra na tela quantas vezes o usuário clicou num botão (WOOWW).
 

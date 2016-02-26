@@ -46,11 +46,11 @@ Você deverá ver uma mensagem "Done, without errors", indicando que correu tudo
 
 Abra o seu css gerado na pasta de deploy e veja os prefixos do linear gradiente. Veja que eu os escrevi como manda a especificação (to top) e o autoprefixer incluiu o gradiente como fazíamos antes da especificação (bottom).
 
-Repare também que nada mudou com o text-shadow, isso porque o autoprefixer não cria fallbacks. Ele simplesmente acidionar os prefixos, se estes existirem.
+Repare também que nada mudou com o text-shadow, isso porque o autoprefixer não cria fallbacks. Ele simplesmente acidiona os prefixos, se estes existirem.
 
 
 ## Minificando o CSS
-Depois que o CSS foi gerado, nós podemos reduzir um pouco o tamanho desse arquivo minificando-o. Na prática, nesse exemplo simples o resultado será praticamente imperceptível (alguns bytes), mas se você estiver trabalhando num projeto maior, mesmo que consiga reduzir alguns kbytes valerá a pena devido à simplicidade desse processo.
+Depois que o CSS foi gerado, nós podemos reduzir um pouco o tamanho desse arquivo, minificando-o. Na prática, nesse exemplo simples o resultado será imperceptível (alguns bytes), mas se você estiver trabalhando num projeto maior, mesmo que consiga reduzir alguns kbytes valerá a pena devido à simplicidade desse processo.
 
 Para esta tarefa, usaremos o plugin [cssmin](https://www.npmjs.com/package/grunt-contrib-cssmin).
 
@@ -71,7 +71,7 @@ cssmin: {
 
 ```
 
-Repare que nós estamos minificando o arquivo que foi prefixado, já na pasta deploy. OK!
+Repare que nós estamos minificando o arquivo que foi prefixado anteriormente, já na pasta deploy. OK!
 
 Rode no terminal ``` $ grunt cssmin ``` e veja o que acontece
 
@@ -173,7 +173,7 @@ copy: {
 ```
 
 
-É hora de verificarmos se o que fizemos deu certo. Abra o seu diretório deploy e veja como ficou. Os arquivos foram copiados? A estrutura de pasta está certa? Ficou como esperávamos? Eu acho que não.
+É hora de verificarmos se o que fizemos deu certo. No terminal, digite ``` $ grunt copy ``` e em seguida abra o seu diretório deploy e veja como ficou. Os arquivos foram copiados? A estrutura de pasta está certa? Ficou como esperávamos? Eu acho que não.
 
 A questão é que o Grunt copiou os arquivos, mas não da maneira como estávamos imaginando. Quando configuramos o Grunt dessa forma: ``` {src: 'source/vendor/*', dest: 'deploy/'} ``` o que esperávamos era que todos os arquivos inseridos na pasta vendor fossem copiados para deploy/vendor. Mas na prática, o que o Grunt fez foi copiar o caminho completo, desde source, para dentro de deploy. O resultado foi o seguinte caminho: deploy\vendor\source\vendor. Bem estranho, não é mesmo?
 
