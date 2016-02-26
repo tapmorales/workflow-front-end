@@ -18,7 +18,7 @@ Esse comando nos traz apenas o último commite. Se quisermos, por exemplo ver os
 
 E também dá para unir as duas flags. Experimente:
 
-```$ git --oneline -n 1```
+```$ git log --oneline -n 1```
 
 Dica: Se você tiver vários comites, é provavel que veja um sinal de dois-pontos na última linha do terminal ao digitar ```$ git log```. Esse sinal é um indicativo que há mais linhas para mostrar no output. Para vê-las uma a uma, basta apertar o ENTER do teclado. Para sair dessa visualização, basta digitar a letra "q". 
 

@@ -27,7 +27,7 @@ Agora vamos pensar. Eu tenho um diretório que está sendo monitorado pelo Git c
 
 Você verá uma mensagem informando que há um arquivo "untracked", ou seja, este arquivo está num repositório do git, mas não está sendo "rastreado". Vamos corrigir isso incluindo esse arquivo numa área especial dentro do git responsável por "fotografar" seus arquivos a cada commit. Á essa área especial chamamos de "stage". Digite:
 
-```$ git add exemplo.html``` e tecle ENTER
+```$ git add exemplo01.html``` e tecle ENTER
 
 Novamente, digite ```$ git status``` para entendermos o que aconteceu.
 

@@ -35,7 +35,7 @@ Lembre-se que o "~" é um atalho para a sua pasta pessoal.
 
 Estando na pasta correta, digite o seguinte comando no seu terminal:
 
-```$ git remote add origin https://Seu_usuario/seu_repositorio.git```
+```$ git remote add origin https://github.com/Seu_usuario/seu_repositorio.git```
 
 Repare que você precisa trocar o seu usuário e o nome do seu repositório no endereço acima. Se você não tiver certeza de ter escrito corretamente, procure na página inicial do seu repositório o lado direito onde está escrito: HTTPS clone URL
 
