@@ -4,30 +4,35 @@ Uma das principais vantagens em usar algum pré-processador de CSS é podermos m
 
 Em nosso projeto, tenho apenas dois componentes:
 
-*mainHeader
-*buttonsContainer
+* mainHeader
+* buttonsContainer
 
 Em termos de estrutura de arquivos dentro de uma metodologia de desenvolvimento, eu poderia ter estes componentes inseridos em um diretório chamado _modules.
 
 Existem várias maneiras de organizar seus arquivos sass. Vale dar uma pesquisada na internet sobre como organizar estes arquivos ou inventar uma maneira própria. Não há regras. Mas o que se vê muito por aí é termos, basicamente, três principais diretórios:
-*_modules/ - armazena a formatação de componentes independentes, como por exemplo, carousel, modal, accordion etc. Por serem independentes, estes componentes não devem sofrer alterações visuais se você alterar a posição deles no seu HTML. Tanto faz se o seu caroussel estiver numa section, num article ou numa div. O resultado deve ser o mesmo.
-*_partials/ - aqui é onde armazenamos as informações da estrutura do site. Os arquivos dessa pasta devem ser responsáveis pela formatação da grid, do header, do footer etc.
-*_base/ - aqui é onde criamos as configurações principais do site. Definimos as cores, as fontes, os css resets etc.
+* _modules/ - armazena a formatação de componentes independentes, como por exemplo, carousel, modal, accordion etc. Por serem independentes, estes componentes não devem sofrer alterações visuais se você alterar a posição deles no seu HTML. Tanto faz se o seu caroussel estiver numa section, num article ou numa div. O resultado deve ser o mesmo.
+* _partials/ - aqui é onde armazenamos as informações da estrutura do site. Os arquivos dessa pasta devem ser responsáveis pela formatação da grid, do header, do footer etc.
+* _base/ - aqui é onde criamos as configurações principais do site. Definimos as cores, as fontes, os css resets etc.
 
-Como eu falei, não há um regra. Sinta-se livre para modificar essa estrutura à vontade.
+Como eu falei, não há uma regra. Sinta-se livre para modificar essa estrutura à vontade.
 
 
 Irei criar  dentro da pasta sass de nosso projeto apenas dois diretórios: _base e _modules. dentro de _base irei criar dois arquivos: _variables.scss e _base.scss. Dentro de _modules criarei também dois arquivos: _mainHeader.scss e _buttonsContainer.scss. Na raiz, criarei o main.scss (sem o underline). 
 
 Arquivos que contenham o underline inicial não serão compilados em arquivos CSS, ou seja, eles só podem ser importados para outros arquivos.
 
-Dentro de sass/ há um arquivo main.css. Não vamos mais utilizar esse aquivo, mas vou deixá-lo aí apenas para referência. No final desse tópico podemos apagá-lo sem problemas.
+Dentro de sass/ há um arquivo main.css. Não vamos mais utilizar esse arquivo, mas vou deixá-lo aí apenas para referência. No final desse tópico podemos apagá-lo sem problemas.
 
 Segue uma imagem de como deve ficar a estrutura de arquivos.
 
 
+![Estrutura de arquivos Sass](04.jpg "Estrutura de arquivos Sass")
 
-Antes de começarmos a ver o Sass em ação, vou fazer uma pequena alteração em nosso Gruntfile. Antes, o autoprefixer usava o arquivo source/sass/main.css como base para salvar o novo deploy/css/main.css. Veja como era o nosso Gruntfile:
+
+
+Antes de começarmos a ver o Sass em ação, vou fazer uma pequena alteração em nosso Gruntfile. 
+
+Anteriormente, o autoprefixer usava o arquivo source/sass/main.css como base para salvar o novo deploy/css/main.css. Veja como era o nosso Gruntfile:
 
 ```javascript
 
@@ -129,16 +134,7 @@ module.exports = function(grunt) {
 			  		dest: 'deploy/'}
 			]        
 		  }
-		},
-
-		//apenas para referência de como NÃO fazer
-		/*copy: {
-			dist: {
-				 files: [
-					{src: 'source/vendor/*', dest: 'deploy/vendor/'}
-				]
-			}
-		},*/
+		},		
 
 	    clean: {
   			dist: {

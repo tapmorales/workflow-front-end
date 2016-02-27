@@ -2,7 +2,7 @@
 
 O nosso próximo passo é incluirmos o componente mainHeader. Para isso, crie o seguinte código em _modules/_mainHeader.scss
 
-```css
+```scss
 
 .mainHeader{
     color: #bbb;
@@ -11,7 +11,7 @@ O nosso próximo passo é incluirmos o componente mainHeader. Para isso, crie o 
 
 
 ```
-Em seguida, importe-o no main.scss e rode novamente $ grunt sass
+Em seguida, importe-o no main.scss e rode novamente ``` $ grunt sass ```.
 
 Nada de novo aqui. Porém, a grande sacada é que, mesmo que você não goste do IE, precisa gostar dos usuários que o utilizam, assim como Deus abomina o pecado, mas ama o pecador. 
 
@@ -25,7 +25,7 @@ Para resolver essa questão, vou utilizar o símbolo ‘&’ que representa um s
 
 Edite o arquivo da seguinte forma:
 
-```css
+```scss
 
 .mainHeader{
 

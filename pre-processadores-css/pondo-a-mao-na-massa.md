@@ -1,6 +1,6 @@
 #Pondo a mão na massa
 
-A partir desse ponto temos nosso o nosso Gruntfile configurado para compilar os nossos arquivos e também temos uma estrutura muito simples de diretório que os armazenará. 
+A partir desse ponto temos o nosso Gruntfile configurado para compilar os nossos arquivos e também temos uma estrutura muito simples de diretório que os armazenará. 
 
 Tentarei aqui exemplificar algumas funcionalidades do Sass aplicado ao nosso mini-minuscúlo-pequeno projeto e como utilizá-lo para resolver problemas em projetos reais. Não falarei de todas as funcionalidades, mas como darei exemplos práticos, acredito que o aprendizado será muito mais proveitoso.
 

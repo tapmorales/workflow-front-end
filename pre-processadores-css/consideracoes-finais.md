@@ -14,15 +14,15 @@ Lembra que eu falei que não devemos colocar em produção os arquivos .map e qu
 ```javascript
 
 sass: {
-            options: {
-                sourceMap: false
-            },          
-            dist: {
-               files: {
-                      'deploy/css/main.css': 'source/sass/main.scss',
-               },
-            },
-        }
+    options: {
+        sourceMap: false
+    },          
+    dist: {
+       files: {
+              'deploy/css/main.css': 'source/sass/main.scss',
+       },
+    },
+}
 
 
 

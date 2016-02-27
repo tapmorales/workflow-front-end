@@ -2,18 +2,18 @@
 
 Sabemos que o arquivo _base/_variables.scss deve conter as principais configurações visuais de todo o site/aplicativo. Portanto, vamos editá-lo com o seguinte código:
 
-```css
+```scss
 
 $bg-color: #ccc;
 $font: arial, sans-serif;
 
 ```
 
-Repare que as variáveis em sass começam com um sinal de ‘$’.
+Repare que as variáveis em sass começam com um sinal de '$'.
 
 Agora, em _base/_base.scss, digite o seguinte código:
 
-```css
+```scss
 
 body{
     background: $bg-color;    
@@ -21,7 +21,13 @@ body{
 }
 
 ```
-Muito simples! A varíável $bg-color armazena o valor #ccc e esta é usada na declaração CSS background: $bg-color;  Ou seja, no arquivo compilado teremos o resultado ```css background: #ccc; ``` 
+Muito simples! A varíável $bg-color armazena o valor #ccc e esta é usada na declaração CSS background: $bg-color;  Ou seja, no arquivo compilado teremos o resultado: 
+
+```css
+
+ background: #ccc; 
+
+ ``` 
 
 Pode parecer bem bobinho neste exemplo, mas num código extenso, saber utilizar bem as variáveis pode te poupar muito retrabalho.
 

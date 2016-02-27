@@ -5,7 +5,7 @@ O Sass é, atualmente, o mais usado e é o que eu vou utilizar nesse guia, mas t
 
 Pense num pré-processador de CSS como sendo um software que recupera um código escrito em um formato diferente e o transforma na boa e velha folha de estilo em cascata , ou seja, você escreve num arquivo contendo outra extensão e o compilador gera o CSS comum. A vantagem é que com um pré-processador você ganha features que não estão disponíveis nativamente num CSS, como variáveis (mentira: [http://caniuse.com/#feat=css-variables](http://caniuse.com/#feat=css-variables)), loops, if e else, entre outras coisas legais.
 
-É importante salientar que há duas formas de escrevermos com o Sass. Há a sintaxe.sass (um pouco diferente do que o CSS tradicional, baseado em edentações e quebras de linha) e o .scss (parecido com o CSS que estamos acostumados, por isso mesmo, é a minha sintaxe preferida. Esta sintaxe é baseada em chaves e ponto-e-vírgulas).
+É importante salientar que há duas formas de escrevermos com o Sass. Há a sintaxe.sass (um pouco diferente do CSS tradicional. É baseado em indentações e quebras de linha) e o .scss (parecido com o CSS que estamos acostumados, por isso mesmo, é a minha sintaxe preferida. Esta sintaxe é baseada em chaves e ponto-e-vírgulas).
 
 Além de escolhermos nosso pré-processador e também a sintaxe, precisamos decidir qual a ferramenta que vamos utilizar para transformar nossos arquivos .scss em .css. Há o [Ruby](http://rubyinstaller.org/) e o [Libsass](http://libsass.org/).
 
@@ -46,7 +46,7 @@ Você deve visualizar a versão do sass instalado na sua máquina.
 
 ---
 
-Se você optar por compilar s seus arquivos usando o Libssas, não precisará instalar o Ruby. Nesse caso, como estamos usando o node, você precisará instalar um wrapper chamado [node-sass](https://github.com/sass/node-sass). Veja mais detalhes [nesse link](http://sass-lang.com/libsass). 
+Se você optar por compilar seus arquivos usando o Libssas, não precisará instalar o Ruby. Nesse caso, como estamos usando o node, você precisará instalar um wrapper chamado [node-sass](https://github.com/sass/node-sass). Veja mais detalhes [nesse link](http://sass-lang.com/libsass). 
 
 ---
 
@@ -78,7 +78,7 @@ Para configurar o Sass dentro de nosso Gruntfile, temos duas opções:
 sass: {
     dist: {
         files: {
-            ‘arquivo-compilado.css’: ‘arquivo-original.scss’
+            'arquivo-compilado.css': 'arquivo-original.scss'
         }
     }
 }
@@ -115,10 +115,10 @@ Além disso, podemos passar algumas opções ao compilador. Veja:
 sass: {
     dist: {
         options: {
-	//opções de configuração
+	        //opções de configuração
         },
         files: {
-            ‘arquivo-compilado.css’: ‘arquivo-original.scss’
+            'arquivo-compilado.css': 'arquivo-original.scss'
         }
     }
 }
@@ -134,7 +134,7 @@ sass: {
 sass: {
     dist: {
         options: {
-	//opções de configuração
+	        //opções de configuração
         },
         files: [{
                     expand: true, //você já sabe o que isso faz

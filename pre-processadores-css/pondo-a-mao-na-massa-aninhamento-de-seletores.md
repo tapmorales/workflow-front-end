@@ -3,7 +3,7 @@ Entender como funciona o aninhamento de seletores no Sass é algo que não exige
 
 O .scss ...
 
-```css
+```scss
 #menu{
     ul{
         margin: 0px;
@@ -48,7 +48,7 @@ Nós dois sabemos que seletores desse tipo são péssimos em termos de performan
 Mas nós podemos usar o aninhamento para gerar o efeito hover em um link, juntamente com a referência ao seletor pai ‘&’. Veja:
 
 o arquivo .scss ...
-```css
+```scss
 a{
     text-decoration: none;
     &:hover{
@@ -59,9 +59,14 @@ a{
 ```
 
 … gera o seguinte .css:
+
+```css
+
 a{
      text-decoration: none;
 }
 a:hover{
      text-decoration: underline;
 }
+
+```

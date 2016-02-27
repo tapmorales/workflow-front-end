@@ -2,7 +2,7 @@
 
 Para resolver o problema de reutilização de código comentado no tópico anterior, criarei um @mixin que gere todo o código do botão e que receba por parâmetro a cor base. Farei isso da seguinte maneira:
 
-```css
+```scss
 
 @mixin gerarBotao($cor){
     background-image: linear-gradient(to top, darken($cor, 15), $cor);
@@ -29,7 +29,7 @@ Tenha em mente que, ao criarmos um @mixin, precisamos utilizá-lo usando a palav
 
 Apenas para exemplificar o uso de uma @function, vou criar uma função que recebe dois valores e calcula a porcentagem:
 
-```css
+```scss
 @function calc-percent($target, $container) {
   @return ($target / $container) * 100%;
 }
@@ -37,7 +37,7 @@ Apenas para exemplificar o uso de uma @function, vou criar uma função que rece
 
 Quando precisarmos utilizar essa função, teremos que chamá-la de dentro da regra css.
 
-```css
+```scss
 .modulo {
   width: calc-percent(500px, 1000px);
 }
@@ -45,7 +45,7 @@ Quando precisarmos utilizar essa função, teremos que chamá-la de dentro da re
 
 Voltando ao nosso exemplo, para utilizar o @mixin criado, precisamos da palavra @include. Veja como deve ficar:
 
-```css
+```scss
 
 @mixin gerarBotao($cor){
     background-image: linear-gradient(to top, darken($cor, 15), $cor);
@@ -82,15 +82,15 @@ Voltando ao nosso exemplo, para utilizar o @mixin criado, precisamos da palavra 
 
 E se no futuro precisarmos de uma variação desse mesmo botão, podemos simplesmente passarmos uma nova cor como parâmetro:
 
-```css
+```scss
 
 .buttonsContainer__button{
-        @include gerarBotao(#AFAFAF)
-    }
+     @include gerarBotao(#AFAFAF)
+}
 
-    .buttonsContainer__button--hightlight{
-        @include gerarBotao(red)
-    }
+.buttonsContainer__button--hightlight{
+     @include gerarBotao(red)
+}
 
 
 ```

@@ -3,7 +3,7 @@ Coisa linda. Se tudo correu bem, temos um main.css compilado e um arquivo novo c
 
 Por enquanto, vou deixar o arquivo .map sendo criado normalmente. Em breve iremos configurar o sass para não gerar esse sourceMap.
 
-Se você inspecionar o seu html pelo Chrome (em um servidor, pois o sourceMap não funciona em file://…) você verá que o Browser mostra a referência ao arquivo .scss e não ao .css, como era esperado. Assim, quando você tiver muitos arquivos, muitos componentes, muitas partials etc, ficará fácil saber quem é o sass responsável por aquela formatação. Se não existisse o .map, você teria que avaliar o arquivo compilado e ‘caçar’ nos arquivos fontes. Isso seria uma grande perda de tempo.
+Se você inspecionar o seu html pelo Chrome (em um servidor, pois o sourceMap não funciona em file://…) você verá que o Browser mostra a referência ao arquivo .scss e não ao .css, como era esperado. Assim, quando você tiver muitos arquivos, muitos componentes, muitas partials etc, ficará fácil saber quem é o sass responsável por aquela formatação. Se não existisse o .map, você teria que avaliar o arquivo compilado e "caçar" nos arquivos fontes. Isso seria uma grande perda de tempo.
 
 ![Entendo o arquivo .map](05.jpg "Entendo o arquivo .map")
 

@@ -1,3 +1,5 @@
+##Juntando o aninhamento, variáveis e seletor pai
+
 O próximo passo é criarmos o nosso componente buttonsContainer. Abra esse arquivo e edite-o incluindo os aninhamentos necessários. Lembre-se que ele está em _modules/. 
 
 .scss
