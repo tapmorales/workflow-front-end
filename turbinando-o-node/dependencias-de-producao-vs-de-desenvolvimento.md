@@ -68,7 +68,7 @@ De certa maneira, esse processo agiliza muito o processo de iniciar um projeto n
 
 Você pode listar todas as dependências do front-end num arquivo chamado bower.json e depois baixá-las todas de uma única vez usando o comando ``` $ bower install ```.
 
-####Fim do Spolier
+####Fim do Spoiler
 
 
 
