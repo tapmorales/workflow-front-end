@@ -2,7 +2,7 @@
 
 Estamos quase lá.
 
-O que nos resta agora é fazer com que apenas com um comando no nosso terminal sejamos capazes de executar todas as tarefas de uma única vez. Para isso, nós iremos criar um alias, ou seja, um atalho para mais de uma tarefa criada no Gruntfile.
+O que nos resta agora é fazer com que, digitando apenas um comando no nosso terminal, sejamos capazes de executar todas as tarefas de uma única vez. Para isso, nós iremos criar um alias, ou seja, um atalho para mais de uma tarefa criada no Gruntfile.
 
 Veja um exemplo abaixo:
 

@@ -127,8 +127,9 @@ Mostra a data na tela
     
     /* recupera a data e retorna na variavel dateInfo */
     var dateInfo = (function(){
-        var today     = new Date()
-        ,     date     = today.getDate() + '/' + today.getMonth() + 1 + '/' + today.getFullYear();
+        var today   = new Date()
+        ,   mounth  = parseInt(today.getMonth() + 1).length < 2 ? parseInt(today.getMonth() + 1) : '0' + parseInt(today.getMonth() + 1)
+        ,   date    = today.getDate() + '/' + mounth + '/' + today.getFullYear();
 
         console.log('a data que irá retornar é: '+ date);
 

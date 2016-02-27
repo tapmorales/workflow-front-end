@@ -177,7 +177,7 @@ copy: {
 
 A questão é que o Grunt copiou os arquivos, mas não da maneira como estávamos imaginando. Quando configuramos o Grunt dessa forma: ``` {src: 'source/vendor/*', dest: 'deploy/'} ``` o que esperávamos era que todos os arquivos inseridos na pasta vendor fossem copiados para deploy/vendor. Mas na prática, o que o Grunt fez foi copiar o caminho completo, desde source, para dentro de deploy. O resultado foi o seguinte caminho: deploy\vendor\source\vendor. Bem estranho, não é mesmo?
 
-Para resolver, precisamos dizer ao Grunt para para, no momento da cópia, se basear relativamente ao diretório source, mas não incluí-lo na cópia. Para isso:
+Para resolver, precisamos dizer ao Grunt para, no momento da cópia, se basear relativamente ao diretório source, mas não incluí-lo na cópia. Para isso:
 
 ```javascript
 expand: true, //habilita o cwd
@@ -249,7 +249,7 @@ Eu já trabalhei com dois plugins do GruntJS para resolver esse tipo de problema
 * [grunt-usemin](https://github.com/yeoman/grunt-usemin).
 
 
-Para o nosso guia, eu vou simplesmente pedir que você altere a chamada do main.css e app.min.js em "souce" e execute o copy novamente.
+Para o nosso guia, eu vou simplesmente pedir que você altere a chamada do main.css e app.min.js em "source" e execute o copy novamente.
 
 Se você quiser deixar mais profissional, tente por conta própria usar um dos plugins descritos acima. Senão, basta alterar o caminho do css e do javascript.
 
@@ -272,7 +272,7 @@ clean: {
 
 ```
 
-Esse comando irá limpar deletar o nosso diretório deploy. Não é difícil perceber que o comando ``` $ grunt clean ``` deve ser executado antes de qualquer outro comando.
+Esse comando irá deletar o nosso diretório deploy. Não é difícil perceber que o comando ``` $ grunt clean ``` deve ser executado antes de qualquer outro comando.
 
 
 Ou seja, no nosso terminal, devemos executar os seguintes comandos, nessa ordem:
