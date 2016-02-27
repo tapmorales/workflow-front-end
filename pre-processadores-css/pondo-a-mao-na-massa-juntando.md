@@ -3,7 +3,8 @@
 O próximo passo é criarmos o nosso componente buttonsContainer. Abra esse arquivo e edite-o incluindo os aninhamentos necessários. Lembre-se que ele está em _modules/. 
 
 .scss
-```css
+
+```scss
 
 .buttonsContainer{
     border-top: 2px solid #A5A5A5;
@@ -38,7 +39,7 @@ O próximo passo é criarmos o nosso componente buttonsContainer. Abra esse arqu
 
 Se você olhar bem, verá que há cores que se repetem. Parece interessante criarmos variáveis, não acha? Um detalhe importante é que o sass também possui escopo de variáveis. Veja um exemplo:
 
-```css
+```scss
 
 .main{
     $cor: red;
@@ -56,7 +57,7 @@ O código acima irá gerar um erro pois a variável $cor não existe no contexto
 
 Sabendo disso, vamos editar nosso componente
 
-```css
+```scss
 
 .buttonsContainer{
     $cor1: #848484;
