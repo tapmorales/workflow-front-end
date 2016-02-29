@@ -25,12 +25,11 @@ O Grunt sozinho não faz nada sem os plugins (mentira, faz sim, mas por enquanto
 [Num dos tópicos passado](https://tapmorales.gitbooks.io/workflow-front-end/content/turbinando-o-node/pensando-fora-do-browser.html), instalamos o uglify para minificar nosso js, lembra? Apenas para recordar, segue o comando para instalar o uglify:
 
 ``` 
-
 $ npm install uglify-js 
 
 ```
 
-Contudo, ao trabalharmos com Grunt, não precisamos instalar o pacote acima para minificar nossos arquivos. Em contrapartida, precisamos instalar um ‘wrapper’ do próprio Grunt que envolve o pacote uglify e assim possibilita que executemos o comando uglify não mais pela linha de comando, mas sim programaticamente. É isso mesmo. Nós iremos escrever códigos javascript que rode comandos que antes só rodavam no terminal. Ou seja, vamos criar um arquivo javascript que contenha, por exemplo, uma chamada para “uglify”. Mas eu não estou falando de qualquer arquivo. Eu estou falando do Gruntfile.js.
+Contudo, ao trabalharmos com o Grunt, não precisamos instalar o pacote acima para minificar nossos arquivos. Em contrapartida, precisamos instalar um ‘wrapper’ do próprio Grunt que envolve o pacote uglify e assim possibilita que executemos o comando uglify não mais pela linha de comando, mas sim programaticamente. É isso mesmo. Nós iremos escrever códigos javascript que rode comandos que antes só rodavam no terminal. Ou seja, vamos criar um arquivo javascript que contenha, por exemplo, uma chamada para “uglify”. Mas eu não estou falando de qualquer arquivo. Eu estou falando do Gruntfile.js.
 
 ## arquivo Gruntfile.js
 
@@ -39,7 +38,6 @@ Temos quase tudo de que precisamos. Resta agora criarmos, na raiz do nosso proje
 Mas antes de continuarmos, eu preciso que você instale todos os plugins necessários para executar as tarefas mencionadas anteriormente. Para isso, você irá digitar no terminal as seguintes linhas:
 
 ```
-
 $ npm install grunt-autoprefixer --save-dev
 $ npm install grunt-contrib-cssmin --save-dev
 $ npm install grunt-contrib-uglify --save-dev
@@ -49,10 +47,10 @@ $ npm install grunt-contrib-clean --save-dev
 
 ```
 
-Da mesma forma que os pacotes instalados diretamente pelo terminal, os plugins do Grunt são copiados para dentro de node_modules. Dependendo do numero de plugins instalados, o diretório node_modules fica com um peso considerável. Por isso, acho uma boar prática não incluí-lo no versionamento. Lembre-se que o .gitignore está aí para isso.
+Da mesma forma que os pacotes instalados diretamente pelo terminal, os plugins do Grunt são copiados para dentro de node_modules. Dependendo do numero de plugins instalados, o diretório node_modules fica com um peso considerável. Por isso, acho uma boa prática não incluí-lo no versionamento. Lembre-se que o .gitignore está aí para isso.
 
 ![incluindo node_modules no gitignore](01.jpg "incluindo node_modules no gitignore")
 
 
-Até aqui já temos o GruntJS  alguns plugins intalados em nosso projeto. Vamos aprender no próximo tópico como configurar no Gruntfile.js.
+Até aqui já temos o GruntJS e também alguns plugins intalados em nosso projeto. Vamos aprender no próximo tópico como configurar no Gruntfile.js.
 

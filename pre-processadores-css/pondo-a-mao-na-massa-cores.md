@@ -2,7 +2,7 @@
 
 Para facilitar minha vida, criarei uma variável para a cor cinza mais clara dentro do contexto de nosso componente.
 
-Onde eu precisar ecurecer minha cor, chamarei uma função do Sass chamada darken($color, $amount). O segundo parâmetro é referente à porcentagem de escurecimento.
+Onde eu precisar escurecer minha cor, chamarei uma função do Sass chamada darken($color, $amount). O segundo parâmetro é referente à porcentagem de escurecimento.
 
 ```scss
 

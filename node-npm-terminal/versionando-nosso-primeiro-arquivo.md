@@ -25,7 +25,7 @@ Agora vamos pensar. Eu tenho um diretório que está sendo monitorado pelo Git c
 
 ```$ git status.```
 
-Você verá uma mensagem informando que há um arquivo "untracked", ou seja, este arquivo está num repositório do git, mas não está sendo "rastreado". Vamos corrigir isso incluindo esse arquivo numa área especial dentro do git responsável por "fotografar" seus arquivos a cada commit. Á essa área especial chamamos de "stage". Digite:
+Você verá uma mensagem informando que há um arquivo "untracked", ou seja, este arquivo está num repositório do git, mas não está sendo "rastreado". Vamos corrigir isso incluindo esse arquivo numa área especial dentro do git responsável por "fotografar" seus arquivos a cada commit. A essa área especial chamamos de "stage". Digite:
 
 ```$ git add exemplo01.html``` e tecle ENTER
 
@@ -68,7 +68,7 @@ Vamos investigar como está o nosso repositório git nesse momento (depois de al
 
 ```$ git status```
 
-O git nos dá duas informações muito importantes. A primeira é que há mudanças que não estão na área de stage, portanto, ainda não estão prontas para o próximo commit. A segunda é uma consequência da primeira, ou seja, não há mudanças para ser comitadas.
+O git nos dá duas informações muito importantes. A primeira é que há mudanças que não estão na área de stage, portanto, ainda não estão prontas para o próximo commit. A segunda é uma consequência da primeira, ou seja, não há mudanças para serem comitadas.
 
 Essa é a segunda pegadinha do Git. Ao alterarmos um arquivo que foi comitado previamente, precisamos incluí-lo novamente na área de stage e só depois podemos comitá-lo. Então vamos lá:
 
@@ -101,13 +101,13 @@ var body = document.body;
 body.style.color = 'red';
 ```
 
-Nesse ponto vale uma dica: com o comando ```ls``` é muito difícil identificar o que é arquivo e o que é diretório. Faça um experimento, digite no terminal ```$ls --color``` e veja o que acontece.
+Nesse ponto vale uma dica: com o comando ```ls``` é muito difícil identificar o que é arquivo e o que é diretório. Faça um experimento, digite no terminal ```$ ls --color``` e veja o que acontece.
 
 
 Depois de vinculá-los à sua página, digite ```$ git status``` e analise o output no terminal. Se tudo estiver bem, você deverá ver que um arquivo já comitado anteriormente foi modificado, porém, os dois arquivos criados não estão sendo rastreados pelo Git, ou seja, não estão sendo versionados. Como são apenas dois arquivos, você poderia incluí-los um a um com o comando ```$ git add```. Porém, pense no caso de termos muitos arquivos, como fontes, imagens, audios, vídeos etc. Nesse caso, incluí-los um a um faria você desistir do versionamento nos primeiros dez arquivos. 
 
 Para incluir todos os arquivos de uma vez, você poderia digitar o seguinte comando:
-```$ git add ```.
+```$ git add .```
 
 Observe o ponto no final. Esse sinal é o mesmo que dizer "todos os arquivos".
 

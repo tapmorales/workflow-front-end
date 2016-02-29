@@ -80,7 +80,7 @@ Voltando ao nosso exemplo, para utilizar o @mixin criado, precisamos da palavra 
 
 ```
 
-E se no futuro precisarmos de uma variação desse mesmo botão, podemos simplesmente passarmos uma nova cor como parâmetro:
+E se no futuro precisarmos de uma variação desse mesmo botão, poderemos simplesmente passar uma nova cor como parâmetro:
 
 ```scss
 

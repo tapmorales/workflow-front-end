@@ -29,7 +29,7 @@ autoprefixer: {
 
 ```
 
- A configuração desse arquivo é tão simples que acredito ser auto-explicativo.
+ A configuração desse arquivo é tão simples que acredito ser auto-explicativa.
 
 Você pode verificar outras opções de configurações na própria página do plugin. [https://www.npmjs.com/package/grunt-autoprefixer](https://www.npmjs.com/package/grunt-autoprefixer)
 
@@ -37,7 +37,6 @@ Você pode verificar outras opções de configurações na própria página do p
 Você pode testar se o autoprefixer está funcionando digitando no terminal:
 
 ```javascript
-
  $ grunt autoprefixer 
 
 ```
@@ -287,4 +286,4 @@ $ grunt copy
 
 ```
 
-Eu acho que seria interessante se tivéssemos como executar apenas um comando no terminal e o próprio grunt executássemos quantas tarefas fossem necessárias. E advinha: isso é possível. É o que veremos a seguir. 
+Eu acho que seria interessante se tivéssemos como executar apenas um comando no terminal e o próprio grunt executasse quantas tarefas fossem necessárias. E advinha: isso é possível. É o que veremos a seguir. 

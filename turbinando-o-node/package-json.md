@@ -50,7 +50,7 @@ Esse arquivo possui a seguinte aparência:
 
 Acredito que a maior parte desse arquivo seja autoexplicativo, portanto, não entrarei em maiores detalhes.
 
-O que merece maior atenção é com relação à última propriedade chamada "dependencies", que é um objeto cuja a chave é o nome do módulo dependência e o valor é a versão utilizada em sem projeto. Ao digitar em seu terminal ```$ npm install``` esse objeto será lido pelo npm e todos os módulos listados serão instalados automaticamente. Eu já falei que isso é lindo?
+O que merece maior atenção é com relação à última propriedade chamada "dependencies", que é um objeto cuja chave é o nome do módulo dependência e o valor é a versão utilizada em sem projeto. Ao digitar em seu terminal ```$ npm install``` esse objeto será lido pelo npm e todos os módulos listados serão instalados automaticamente. Eu já falei que isso é lindo?
 
 Mas aqui eu preciso chamar a sua atenção para um detalhe importante. Os projetos instalados globalmente não são listados como dependência. Essa é uma grande desvantagem da instalação global. Dito isso, vamos criar o nosso arquivo package.json.
 

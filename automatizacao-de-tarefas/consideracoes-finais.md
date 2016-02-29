@@ -14,6 +14,3 @@ Deixarei aqui uma lista de plugins que já instalei e que já me salvaram alguma
 Na próxima seção, vamos ver como funciona o SASS, um pré-processador CSS famozinho. Até lá!
 
 
-Esse guia ainda está em desenvolvimento. E ainda há muito o que eu falar.
-
-Se quiser saber quando um novo tópico estiver disponível, [siga-me](http://twitter.com/tapmorales). Eu te aviso por lá.

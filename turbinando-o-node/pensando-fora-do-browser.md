@@ -24,9 +24,9 @@ Queremos instalar em nosso sistema o uglify, portanto, digite no terminal:
 
 a flag ```-g``` informa que você está instalando o pacote globalmente no seu sistema.
 
-Você deve estar ser perguntando de onde o npm baixou os arquivos necessários para a instalação. A resposta: [https://www.npmjs.com/package/uglify-js](https://www.npmjs.com/package/uglify-js). O site [npmjs.com](https://www.npmjs.com/) é um repositório de pacotes desenvolvidos pela comunidade prontos para uso. Se o pacote estiver neste repositório, basta digitar seu nome logo após o comando ```install``` que o npm já sabe o que fazer. 
+Você deve estar se perguntando de onde o npm baixou os arquivos necessários para a instalação. A resposta: [https://www.npmjs.com/package/uglify-js](https://www.npmjs.com/package/uglify-js). O site [npmjs.com](https://www.npmjs.com/) é um repositório de pacotes desenvolvidos pela comunidade prontos para uso. Se o pacote estiver neste repositório, basta digitar seu nome logo após o comando ```install``` que o npm já sabe o que fazer. 
  
-Se a instalação ocorreu com sucesso, você deverá ver no terminal, o local onde o módulo foi instalado (lembre-se que o instalamos globalmente no sistema com a flag ```-g```) e as dependências necessárias para este módulo funcionar.
+Se a instalação ocorreu com sucesso, você deverá ver no terminal o local onde o módulo foi instalado (lembre-se que o instalamos globalmente no sistema com a flag ```-g```) e as dependências necessárias para este módulo funcionar.
 
 Agora que temos um comando novo na linha de comando, vamos experimentar o seguinte comando:
 ```$ uglifyjs -h```
@@ -51,7 +51,7 @@ Tudo deve continuar funcionando, entretanto, vamos minificar esse arquivo. Para 
 $ uglifyjs js/app.js --output js/app.min.js
 ```
 
-Se tudo correu bem, um novo arquivo foi criado. O NodeJS leu o se arquivo app.js e deu saída (```--output```) em outro arquivo, mas desta vez minificado. Abra-o no seu editor e veja o que aconteceu. Podemos ver que a minificação não foi lá essas coisas. Vamos corrigir isso. Digite no seu terminal: 
+Se tudo correu bem, um novo arquivo foi criado. O NodeJS leu o seu arquivo app.js e deu saída (```--output```) em outro arquivo, mas desta vez minificado. Abra-o no seu editor e veja o que aconteceu. Podemos ver que a minificação não foi lá essas coisas. Vamos corrigir isso. Digite no seu terminal: 
 
 ```
 $ uglifyjs js/app.js --output js/app.min.js --mangle

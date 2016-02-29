@@ -67,7 +67,7 @@ Esse comando te mostrará qual é a pasta pessoal mas não "navega" até ela
 
 Eu recomendo que para os exemplos desse livro, você salve seus arquivos no seu diretório Home. No futuro, nos projetos da vida real, fique a vontade para trabalhar na estrutura de arquivos que você preferir. O motivo é que ao trabalharmos no diretório Home, nós temos a mesma estrutura de pastas e arquivos, sendo assim ficará mais fácil e mais didático acompanhar a leitura deste guia.
 
-Antes de criarmos o diretório principal, tenha certeza que você está lugar certo, digite
+Antes de criarmos o diretório principal, tenha certeza de que você está no lugar certo, digite
 ```$ cd ~```
 
 Como vimos, esse comando fará você acessar a sua pasta pessoal, independente de qual diretório estiver sendo acessado anteriormente.
@@ -82,7 +82,7 @@ Esse comando criará um diretório chamado Projects. Para ter certeza que foi cr
 ```$ ls```
 
 Você deverá visualizar a pasta "Projects" na lista que aparecer no terminal. Criamos o diretório, mas ainda não estamos "dentro" dele. Como fazemos mesmo para trocar o diretório corrente? ```$ cd Projects```. Isso mesmo. Mas nesse ponto eu quero te dar uma dica. O Git bash possui um autocomplete que facilita muito a nossa vida. Para vê-lo em ação, tente digitar:
-```$ cd Pro``` (se sem continuar a palavra, aperte TAB do teclado. Faça uns testes com ```$ cd P``` (TAB), ```$ cd Pr``` (TAB). Veja o que acontece. Muito útil.
+```$ cd Pro``` (e sem continuar a palavra, aperte TAB do teclado. Faça uns testes com ```$ cd P``` (TAB), ```$ cd Pr``` (TAB). Veja o que acontece. Muito útil.
 
 Será que está tudo certo? Se estiver no diretório Projects, digite ```$ pwd``` para vermos o diretório corrente. Observe que, como este diretório está vazio, digitar ```$ ls``` não produzirá nenhum resultado.
 

@@ -2,11 +2,11 @@
 
 Sabemos que para instalar um novo pacote através do npm, devemos digitar em nosso terminal o seguinte comando:
 
-```$ npm instal <package>```, para instalações locais em cada diretório do projeto
+```$ npm install <package>```, para instalações locais em cada diretório do projeto
 
 ou:
 
-```$ npm instal <package> -g``` , para instalações globais no sistema.
+```$ npm install <package> -g``` , para instalações globais no sistema.
 
 Contudo, falta-nos entender, de fato, quais as principais diferenças entre essas duas abordagens:
 

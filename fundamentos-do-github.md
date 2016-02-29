@@ -54,7 +54,7 @@ Na verdade, nós não estamos "subindo" nossos arquivos. Nós estamos enviando t
 ```origin``` é o seu repositório remoto que, como dito antes, aponta lá para o GitHub.
 ```master``` é a sua branch principal. Não cabe aqui explicar em detalhes o que é uma branch, mas saiba que o nome "master" é um nome padrão criado pelo próprio Git. Recomendo deixar esse nome por enquanto.
 
-Digite seu usuário e senha do GitHub e tecle ENTER. Se tudo correu bem, você já consegue ser sua versão na internet. https://github.com/Seu_usuario/seu_repositorio
+Digite seu usuário e senha do GitHub e tecle ENTER. Se tudo correu bem, você já consegue ver sua versão na internet. https://github.com/Seu_usuario/seu_repositorio
 
 Digamos agora que a sua máquina subiu no telhado e você precisa continuar o desenvolvimento da sua página exemplo01.html. Se você fez tudo certinho (```git commit``` e ```git push``` nos momentos adequados) basta você "baixar" seus arquivos de outra máquina (pode até ser emprestada) que contenha o Git instalado.
 
@@ -62,7 +62,7 @@ Para isso, crie uma pasta nesse novo computador que será o seu repositório loc
 
 ```$ git clone https://Seu_usuario/seu_repositorio.git```
 
-Esse comando fará uma cópia dos arquivos que estão no seu repositório lá no GitHub num diretorio com o mesmo nome de seu repositório (veja com o comando ```ls```). Agora não tem mais desculpa. Pode continuar o desenvolvimento do projeto. Quando tudo tiver feito (ou no final do dia de trabalho), faça um ```commit``` e suba tudo novamente no GitHub (```$ git push origin master```). Assim você garante que não haverá problema de perda de arquivos (e horas de trabalho) se a sua nova máquina resolver subir no teclado também.
+Esse comando fará uma cópia dos arquivos que estão no seu repositório lá no GitHub num diretorio com o mesmo nome de seu repositório (veja com o comando ```ls```). Agora não tem mais desculpa. Pode continuar o desenvolvimento do projeto. Quando tudo tiver feito (ou no final do dia de trabalho), faça um ```commit``` e suba tudo novamente no GitHub (```$ git push origin master```). Assim você garante que não haverá problema de perda de arquivos (e horas de trabalho) se a sua nova máquina resolver subir no telhado também.
 
 Maravilha. Você continuou o trabalho usando uma máquina emprestada sem prejuízo algum. Mas a sua outra máquina foi para o concerto e ficou pronta. Tudo funcionando perfeitamente. Então você agradece e devolve a máquina emprestada e volta para a sua própria máquina. Como continuar com o desenvolvimento? Será preciso clonar novamente o repositório? Não. Se este ainda estiver configurado no computador, basta solicitar ao Git para atualizar os arquivos locais de acordo com o último ```commit``` que foi feito no GitHub. Para isso, digite no terminal (depois de acessar a sua pasta com o comando ```cd```).
 
