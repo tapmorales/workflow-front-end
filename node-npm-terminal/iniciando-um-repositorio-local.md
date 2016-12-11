@@ -1,8 +1,8 @@
 # Iniciando um repositório local
 
-Estando no diretório Projects, vamos criar mais um diretório chamado "PrimeirosPassosWorflow" e acessá-lo em seguida. (importante: nunca coloque espaços ou caracteres especiais, como acentos ou cedilhas em nomes de arquivos ou pastas)
+Estando no diretório Projects, vamos criar mais um diretório chamado "PrimeirosPassosWorkflow" e acessá-lo em seguida. (importante: nunca coloque espaços ou caracteres especiais, como acentos ou cedilhas em nomes de arquivos ou pastas)
 
-```$ mkdir PrimeirosPassosWorflow ```
+```$ mkdir PrimeirosPassosWorkflow ```
 
 ```$ cd primeirosP (TAB + ENTER)```
 
@@ -14,7 +14,7 @@ Estando no diretório que queremos versionar, vamos digitar:
 
 ```$ git init```
 
-Ao fazermos isso, aparece uma mensagem no terminal  informando que um repositório vazio foi criado. Isso significa que agora uma pasta .git foi criada no diretório PrimeirosPassosWorflow.
+Ao fazermos isso, aparece uma mensagem no terminal  informando que um repositório vazio foi criado. Isso significa que agora uma pasta .git foi criada no diretório PrimeirosPassosWorkflow.
 
 Ao digitarmos ```$ ls``` esperaríamos ver o diretório mencionado acima. Mas isso não acontece. Por quê? O motivo é que o diretorio .git é oculto (esse "." inicial significa que é um arquivo ou diretório oculto).
 
