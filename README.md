@@ -12,6 +12,10 @@ Este guia é para você que manja de HTML, CSS e Javascript, mas que precisa con
 
 Além disso, este guia ainda está em desenvolvimento. Avisarei pelo meu twitter [@tapmorales](http://twitter.com/tapmorales) quando novos tópicos estiverem disponíveis. Me segue lá se você quiser saber quando tem coisa nova por aqui.
 
+Se quiser bater um papo comigo, dá uma olhada nos [links que disponibilizo na minha página](http://danieltapias.com) - é só uma página mesmo, literalmente :). 
+
+Tenho também um projeto pessoal que você pode conferir em [serfrontend.com](http://serfrontend.com).
+
 Para ler on-line, [clique aqui](https://tapmorales.gitbooks.io/workflow-front-end/content/).
 
 Se encontrou algum erro, pode fazer um [pull request aqui](https://github.com/tapmorales/workflow-front-end). Agradeço muito!

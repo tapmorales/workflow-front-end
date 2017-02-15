@@ -10,7 +10,8 @@ Vimos o básico necessário para que você, se não conhecia nada a respeito, po
 
 Abração
 
-Meus contatos:
-[Twitter](https://twitter.com/tapmorales)
-[Linkedin](https://www.linkedin.com/in/daniel-tapias-morales-87145621)
-[Github](https://github.com/tapmorales)
+Quer bater um papo comigo?
+
+Dá uma olhada nos [links que disponibilizo na minha página](http://danieltapias.com)
+
+Também tenho um projeto pessoal onde ministro aulas sobre front-end. Dá uma conferida em [serfrontend.com](http://serfrontend.com).

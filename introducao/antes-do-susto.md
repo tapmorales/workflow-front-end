@@ -6,7 +6,7 @@ Então fui procurar material na internet. Procurei sobre automatização de tare
 
 *"Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager."*
 
-Mas whata? npm? node.js? Ok. Tinha que correr atras do prejuízo. Achei que seria mais fácil ver como o GruntJs funciona na prática. Googlei novamente e abri um site famoso em português que dizia: 
+Mas whata? npm? node.js? Ok. Tinha que correr atrás do prejuízo. Achei que seria mais fácil ver como o GruntJs funciona na prática. Googlei novamente e abri um site famoso em português que dizia: 
 
 ...para instalar, digite:  
 `sudo npm install -g grunt-cli`
