@@ -49,7 +49,7 @@ Uma vez criado o nosso apontamento do "origin" para o GitHub, o próximo passo �
 
 ```$ git push origin master```
 
-Na verdade, nós não estamos "subindo" nossos arquivos. Nós estamos enviando todo o histórico do versionamento. Explicando o comando acima:
+Na verdade, nós não estamos apenas "subindo" nossos arquivos. Nós estamos enviando todo o histórico do versionamento. Explicando o comando acima:
 ```push``` é o comando que submete o versionamento para o seu repositório na nuvem.
 ```origin``` é o seu repositório remoto que, como dito antes, aponta lá para o GitHub.
 ```master``` é a sua branch principal. Não cabe aqui explicar em detalhes o que é uma branch, mas saiba que o nome "master" é um nome padrão criado pelo próprio Git. Recomendo deixar esse nome por enquanto.
