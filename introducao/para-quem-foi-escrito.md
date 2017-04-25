@@ -38,7 +38,7 @@ Ou seja, No final deste livro (se é que posso chamá-lo assim), você terá uma
 var texto = "Olá mundo";
 alert(texto);
 ```
-Mesmo que isso não seja uma boa prática é fácil de entender. Lembre-se: os meus exemplos não têm a intensão de serem escritos como na vida real, contudo, espero te mostra a base para que, depois, você possa avançar com os seus estudos.
+Mesmo que isso não seja uma boa prática é fácil de entender. Lembre-se: os meus exemplos não têm a intensão de serem escritos como na vida real, contudo, espero te mostrar a base para que, depois, você possa avançar com os seus estudos.
 
 
 ## Softwares utilizados:
