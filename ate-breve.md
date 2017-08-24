@@ -15,3 +15,6 @@ Quer bater um papo comigo?
 Dá uma olhada no meu [twitter](https://twitter.com/tapmorales)
 
 Também tenho um projeto pessoal onde ministro aulas sobre front-end. Dá uma conferida em [serfrontend.com](http://serfrontend.com).
+
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")

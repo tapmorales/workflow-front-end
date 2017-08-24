@@ -13,6 +13,10 @@ Há muitos desenvolvedores que não utilizam o Windows como sistema operacional.
 Existem várias interfaces do tipo terminal, mas nós vamos usar uma que é instalado no momento que começarmos a versionar nossos arquivos usando o GIT. Nós usaremos um cara chamado Git Bash. O motivo é que com o Git Bash nós podemos simular comandos Unix no Windows. Acredite, você irá querer isso.
 
 
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
+
 No próximo capítulo, conheceremos o básico sobre versionamento, instalaremos o git para Windows, conheceremos alguns comandos básicos no git bash e criaremos nosso primeiro repositório no GIT.
 
 Até lá!

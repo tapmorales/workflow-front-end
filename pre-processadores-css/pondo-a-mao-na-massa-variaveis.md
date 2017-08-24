@@ -1,5 +1,9 @@
 ##Variáveis
 
+
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
 Sabemos que o arquivo _base/_variables.scss deve conter as principais configurações visuais de todo o site/aplicativo. Portanto, vamos editá-lo com o seguinte código:
 
 ```scss

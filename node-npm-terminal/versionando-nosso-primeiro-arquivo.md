@@ -140,3 +140,5 @@ $ git commit -all -m "mensagem do comite".
 
 Mas atenção: a flag -a, ou uma das variações, só funciona se os arquivos alterados foram versionados previamente (com o ```$ git add``` ou ```$ git add .```). Se você nunca adicionou os arquivos à área de stage, a flag -a não produzirá resultado algum.
 
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")

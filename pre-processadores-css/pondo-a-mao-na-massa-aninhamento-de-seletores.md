@@ -1,4 +1,8 @@
 ##Aninhamento de seletores
+
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
 Entender como funciona o aninhamento de seletores no Sass é algo que não exige maiores explicações por ser bastante auto-explicativo. Veja um exemplo:
 
 O .scss ...

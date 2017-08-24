@@ -40,6 +40,11 @@ Faça uma pequena edição no seu arquivo package.json para ficar semelhante à:
 
 ```
 
+
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
+
 ##Explicação sobre o processo de build
 
 O build, ou deploy, nada mais é do que preparar os arquivos para serem enviados para produção (subir no servidor e torná-lo disponível na internet). Esse processo pode envolver uma série de tarefas, e pode variar de projeto para projeto. Os exemplos mais comuns e simples de entender são:

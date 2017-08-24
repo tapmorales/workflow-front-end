@@ -8,6 +8,10 @@ ou:
 
 ```$ npm install <package> -g``` , para instalações globais no sistema.
 
+
+
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
 Contudo, falta-nos entender, de fato, quais as principais diferenças entre essas duas abordagens:
 
 A vantagem mais obvia de uma instalação global é com relação à utilização do espaço físico na sua HD. Os pacotes instalados globalmente precisam ser instalados apenas uma vez e podem ser utilizados em quantos projetos forem necessários. Se você usa com frequência um determinado módulo do NodeJS, vale a pena pensar em instalá-lo globalmente. A próposito, o caminho físico dessa instalação em seu sistema Windows é: 

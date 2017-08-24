@@ -21,6 +21,10 @@ Quando percebi isso meu cérebro cresceu alguns milímetros. Vou repetir, dando 
 
 
 
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
+
+
 Mas como isso foi possível? Simples, desenvolveram o NodeJS usando como base a tal da V8, que é a engine que interpreta o javascript no Google Chrome. Fantástico! Ou seja, com o NodeJS, você não depende mais do browser para ler e interpretar seus arquivos javascripts.
 
 Mas e aquela definição do NodeJS retirada do site nodejs.org? Não se preocupe por enquanto. Lembre-se que não é necessário entender o escopo de variáveis quando estamos começando aprender javascript.
