@@ -12,6 +12,6 @@ Abração
 
 Quer bater um papo comigo?
 
-Dá uma olhada nos [links que disponibilizo na minha página](http://danieltapias.com)
+Dá uma olhada no meu [twitter](https://twitter.com/tapmorales)
 
 Também tenho um projeto pessoal onde ministro aulas sobre front-end. Dá uma conferida em [serfrontend.com](http://serfrontend.com).

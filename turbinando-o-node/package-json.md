@@ -13,6 +13,11 @@ Os projetos baseados em NodeJS usam um arquivo de configuração (manifest) cham
 
 
 
+[![Torne-se front-end com este curso 100% prático](../cta_livro.png "Torne-se front-end com este curso 100% prático")](https://www.udemy.com/ferramentas-front-end-git-npm-script-gulp-e-sass/?couponCode=PROMOLIVRO20 "12 horas de video. Apenas R$ 20,00. Acesso vitalício e sem mensalidades")
+
+
+
+
 Um outro cenário é quando trabalhamos em equipe. Se eu estou desenvolvendo um projeto node, posso versionar o arquivo de configuração package.json, ignorando toda a pasta node_modules (que, como vimos, são os módulos instalados localmente). Se uma pessoa do meu time precisar desenvolver uma funcionalidade nova ou continuar o meu trabalho, ele deverá puxar do Git/GitHub (```$ pull origin```, lembra?) somente o package.json, não se importando com os módulos que instalei localmente. Pois estes módulos serão instalados automaticamente na sua máquina com apenas um comando na linha de comando:
 
 ```$ npm install```
